@@ -96,6 +96,14 @@
           "daysSinceLaunch": 10,
           "daysSinceAnyChange": 4,
           "daysSinceMajorChange": null,
+          "changeHistory": [
+            { "date": "2026-08-25 09:14:07", "resource": "CAMPAIGN", "operation": "CREATE", "fields": "status,targetRoas.targetRoas,campaignBudget" },
+            { "date": "2026-08-25 09:14:07", "resource": "CAMPAIGN_BUDGET", "operation": "CREATE", "fields": "amountMicros" },
+            { "date": "2026-08-25 09:22:41", "resource": "AD_GROUP", "operation": "CREATE", "fields": "status" },
+            { "date": "2026-08-25 09:31:15", "resource": "AD_GROUP_AD", "operation": "CREATE", "fields": "status" },
+            { "date": "2026-08-25 09:33:52", "resource": "AD", "operation": "CREATE", "fields": "responsiveAppAd.headlines,responsiveAppAd.images,responsiveAppAd.videos" },
+            { "date": "2026-08-25 09:40:03", "resource": "AD_GROUP_CRITERION", "operation": "CREATE", "fields": "status" }
+          ],
           "flags": [
             {
               "code": "LIMITED",
@@ -538,6 +546,12 @@
           "daysSinceLaunch": 23,
           "daysSinceAnyChange": 2,
           "daysSinceMajorChange": null,
+          "changeHistory": [
+            { "date": "2026-08-05 08:00:00", "resource": "CAMPAIGN", "operation": "CREATE", "fields": "status,targetRoas.targetRoas,campaignBudget" },
+            { "date": "2026-08-05 08:00:00", "resource": "CAMPAIGN_BUDGET", "operation": "CREATE", "fields": "amountMicros" },
+            { "date": "2026-09-03 10:45:12", "resource": "AD_GROUP_CRITERION", "operation": "UPDATE", "fields": "status" },
+            { "date": "2026-09-03 10:47:33", "resource": "AD", "operation": "UPDATE", "fields": "responsiveAppAd.videos" }
+          ],
           "flags": [
             {
               "code": "LIMITED",
@@ -984,6 +998,12 @@
           "daysSinceLaunch": 92,
           "daysSinceAnyChange": 2,
           "daysSinceMajorChange": null,
+          "changeHistory": [
+            { "date": "2026-06-04 11:02:18", "resource": "CAMPAIGN", "operation": "CREATE", "fields": "status,targetRoas.targetRoas,campaignBudget" },
+            { "date": "2026-06-04 11:02:18", "resource": "CAMPAIGN_BUDGET", "operation": "CREATE", "fields": "amountMicros" },
+            { "date": "2026-09-03 14:18:26", "resource": "AD_GROUP_AD", "operation": "CREATE", "fields": "status" },
+            { "date": "2026-09-03 14:20:47", "resource": "AD", "operation": "CREATE", "fields": "responsiveAppAd.headlines,responsiveAppAd.images" }
+          ],
           "flags": [
             {
               "code": "Д1",

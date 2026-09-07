@@ -144,6 +144,11 @@ export function CampaignCard({ campaign: c, generatedAt }) {
           ))}
         </div>
 
+        <div className="mt-3 rounded-md border bg-muted/30 p-2.5">
+          <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">Инсталлы по дням</p>
+          <Sparkline values={c.installs7d} generatedAt={generatedAt} />
+        </div>
+
         <Collapsible open={historyOpen} onOpenChange={setHistoryOpen} className="mt-2">
           <CollapsibleTrigger className="inline-flex items-center gap-1 text-[11px] text-muted-foreground transition-colors hover:text-primary data-[state=open]:text-primary">
             <History className="h-3 w-3" /> История
@@ -155,12 +160,6 @@ export function CampaignCard({ campaign: c, generatedAt }) {
             </div>
           </CollapsibleContent>
         </Collapsible>
-      </div>
-
-      <div className="flex w-24 flex-none flex-col items-end justify-center gap-1 py-2.5 pr-3">
-        <Sparkline values={c.installs7d} />
-        <span className="text-[13px] font-semibold tabular-nums">{c.installs7d[c.installs7d.length - 1]}</span>
-        <span className="text-[10px] uppercase tracking-wide text-muted-foreground">инсталлы/д</span>
       </div>
     </article>
   );
