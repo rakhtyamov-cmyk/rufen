@@ -92,17 +92,28 @@ export function formatHistoryDate(dateStr, referenceIso) {
 }
 
 export function historyEntryMeta(item) {
-  if (item.operation === 'CREATE' && (item.resource === 'CAMPAIGN' || item.resource === 'CAMPAIGN_BUDGET')) {
+  const isCoreResource = item.resource === 'CAMPAIGN' || item.resource === 'CAMPAIGN_BUDGET';
+
+  if (item.operation === 'CREATE' && isCoreResource) {
     const label = item.resource === 'CAMPAIGN_BUDGET' ? 'Бюджет создан' : 'Кампания создана';
     return { label, icon: '🆕' };
   }
-  const fields = item.fields.split(',').map((f) => f.trim());
-  const known = fields.map((f) => FIELD_META[f]).find(Boolean);
-  if (known) return known;
+
+  // FIELD_META — только для CAMPAIGN/CAMPAIGN_BUDGET (единственные типы, где
+  // manage.gs реально разбирает конкретное поле, см. комментарий вверху файла).
+  // Для остальных типов "status" в маске CREATE-события ничего не значит
+  // (это просто дефолтное поле нового ресурса) — не должно перебивать
+  // честный resource-level лейбл из TYPE_OP_META ниже.
+  if (isCoreResource) {
+    const fields = item.fields.split(',').map((f) => f.trim());
+    const known = fields.map((f) => FIELD_META[f]).find(Boolean);
+    if (known) return known;
+  }
 
   const typeOp = TYPE_OP_META[item.resource]?.[item.operation];
   if (typeOp) return typeOp;
 
+  const fields = item.fields.split(',').map((f) => f.trim());
   return { label: `Изменено: ${fields[0]}${fields.length > 1 ? ` +${fields.length - 1}` : ''}`, icon: '✏️' };
 }
 
