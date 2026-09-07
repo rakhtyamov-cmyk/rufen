@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campaign Advisor Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="viz-root">
+    <header class="page-header">
+      <div class="page-header__title">
+        <div class="page-header__eyebrow">Google Ads · Advisor</div>
+        <h1>Campaign Advisor Dashboard</h1>
+        <p class="page-header__subtitle">tROAS App Campaigns/p>
+      </div>
+      <div class="page-header__meta">
+        <span id="generatedAt" class="timestamp-badge"></span>
+      </div>
+    </header>
+
+    <section id="stats" class="stat-row" aria-label="Сводка"></section>
+
+    <section class="health-card" aria-label="Распределение кампаний по статусу">
+      <div class="health-card__head">
+        <h2>Портфель по статусу</h2>
+        <span class="muted" id="healthTotal"></span>
+      </div>
+      <div id="healthBar" class="health-bar" role="img"></div>
+      <div id="healthLegend" class="health-legend"></div>
+    </section>
+
+    <section class="filters" aria-label="Фильтры">
+      <input id="search" type="search" placeholder="Поиск: кампания, гео, аккаунт…" aria-label="Поиск">
+
+      <div class="filter-group filter-group--right">
+        <select id="accountFilter" aria-label="Аккаунт">
+          <option value="">Все аккаунты</option>
+        </select>
+        <select id="geoFilter" aria-label="Гео">
+          <option value="">Все гео</option>
+        </select>
+        <select id="sortBy" aria-label="Сортировка">
+          <option value="urgency">По срочности</option>
+          <option value="roasD3">ROAS d3 ↑</option>
+          <option value="roasD3desc">ROAS d3 ↓</option>
+          <option value="budget">Бюджет ↓</option>
+          <option value="geo">Гео A→Я</option>
+          <option value="name">Имя A→Я</option>
+        </select>
+      </div>
+    </section>
+
+    <main id="accounts" aria-live="polite"></main>
+
+    <p id="emptyState" class="empty-state" hidden>Ничего не найдено — попробуйте изменить фильтры.</p>
+  </div>
+
+  <div id="nameTooltip" class="name-tooltip" role="tooltip" hidden></div>
+
+  <template id="campaignRowTemplate">
+    <article class="campaign">
+      <div class="campaign__accent"></div>
+      <div class="campaign__badge"></div>
+      <div class="campaign__body">
+        <div class="campaign__title-row">
+          <span class="campaign__geo"></span>
+          <span class="campaign__name" tabindex="0" aria-describedby="nameTooltip"></span>
+          <a class="campaign__link" target="_blank" rel="noopener" hidden>Открыть ↗</a>
+        </div>
+        <p class="campaign__reason"></p>
+        <div class="campaign__metrics"></div>
+        <div class="campaign__flags"></div>
+      </div>
+      <div class="campaign__spark">
+        <div class="campaign__spark-chart"></div>
+        <button type="button" class="campaign__history-toggle">
+          🕓 История <span class="chev">▾</span>
+        </button>
+      </div>
+      <div class="campaign__history" hidden></div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>

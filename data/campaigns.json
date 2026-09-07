@@ -1,0 +1,2523 @@
+{
+  "generatedAt": "2026-09-04T21:56:00+04:00",
+  "accounts": [
+    {
+      "name": "GA1 - Match3 (d3)",
+      "customerId": "259-330-6743",
+      "campaigns": [
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_PH|s_google|at_aos|u_ua|o_roas|t_main|a_broad|f_full|25.08.2026|tROAS",
+          "reason": "фаза обучения (день 11 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1.4,
+          "roasD3": 1.47,
+          "roasD7_3d": 1.56,
+          "roasD7_14d": 1.49,
+          "installs7d": [
+            2218,
+            2292,
+            2477,
+            2397,
+            2292,
+            2429,
+            2407
+          ],
+          "budgetUsd": 2995,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_CONSTRAINED"
+          ],
+          "avgInAppPerDay": 127040,
+          "recentInAppPerDay": [
+            130923,
+            127800,
+            137203,
+            131776,
+            135607,
+            122631,
+            103338
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 9,
+          "daysSinceCreativeChange": 2,
+          "daysSinceLaunch": 10,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "LIMITED",
+              "act": false,
+              "text": "Показ ограничен: стратегия ставок ограничивает показ — модерация ни при чём"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Low креативов: 9 (обновляли 2д назад, цикл ещё не подошёл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_BR|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|25.08.2026|tROAS",
+          "reason": "фаза обучения (день 11 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1.4,
+          "roasD3": 1.45,
+          "roasD7_3d": 1.54,
+          "roasD7_14d": 1.56,
+          "installs7d": [
+            3688,
+            3990,
+            5304,
+            6294,
+            6982,
+            7282,
+            6438
+          ],
+          "budgetUsd": 2995,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_CONSTRAINED"
+          ],
+          "avgInAppPerDay": 248267,
+          "recentInAppPerDay": [
+            162110,
+            171819,
+            228581,
+            264872,
+            317834,
+            328716,
+            263934
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 33,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 10,
+          "daysSinceAnyChange": 4,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "LIMITED",
+              "act": false,
+              "text": "Показ ограничен: стратегия ставок ограничивает показ — модерация ни при чём"
+            },
+            {
+              "code": "Д3",
+              "act": true,
+              "text": "Low креативов: 33, не обновлялись 14д+ — заменить"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_AR|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 2.28,
+          "roasD7_3d": 2.41,
+          "roasD7_14d": 2.41,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            14,
+            212,
+            180
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 3196,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            964,
+            13309,
+            8096
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_CL|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 2.26,
+          "roasD7_3d": 2.39,
+          "roasD7_14d": 2.39,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            5,
+            54,
+            88
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1264,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            146,
+            3205,
+            5496
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_CO|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 1.65,
+          "roasD7_3d": 1.74,
+          "roasD7_14d": 1.74,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            37,
+            475,
+            443
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 6616,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            1722,
+            24115,
+            20478
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_EG|s_google|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 1.51,
+          "roasD7_3d": 1.59,
+          "roasD7_14d": 1.59,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            13,
+            100,
+            85
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 665,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            306,
+            2280,
+            2068
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_MX|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 1.65,
+          "roasD7_3d": 1.74,
+          "roasD7_14d": 1.74,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            43,
+            710,
+            783
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 6931,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            1918,
+            22476,
+            24123
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_PE|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 1.55,
+          "roasD7_3d": 1.64,
+          "roasD7_14d": 1.64,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            90,
+            115
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1336,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            78,
+            4957,
+            4317
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_PL|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 1.64,
+          "roasD7_3d": 1.73,
+          "roasD7_14d": 1.73,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            2,
+            31,
+            20
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 144,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            33,
+            529,
+            448
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_TH|s_google|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 1.66,
+          "roasD7_3d": 1.75,
+          "roasD7_14d": 1.75,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            15,
+            206,
+            220
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1704,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            243,
+            6063,
+            5621
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_TR|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 0.92,
+          "roasD7_3d": 0.97,
+          "roasD7_14d": 0.97,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            6,
+            15,
+            23
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 195,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            82,
+            870,
+            411
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_playoff|p_inhouse|g_US|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 1.16,
+          "roasD7_3d": 1.23,
+          "roasD7_14d": 1.23,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            59,
+            34
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 357,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            48,
+            1465,
+            986
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_playoff|p_inhouse|g_ID|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|05.08.2026|tROAS_Admob",
+          "reason": "изменено 2д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.4,
+          "roasD3": 1.5,
+          "roasD7_3d": 1.58,
+          "roasD7_14d": 1.61,
+          "installs7d": [
+            7735,
+            7449,
+            8359,
+            9860,
+            12147,
+            10794,
+            11722
+          ],
+          "budgetUsd": 3540,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_CONSTRAINED"
+          ],
+          "avgInAppPerDay": 479978,
+          "recentInAppPerDay": [
+            380334,
+            353426,
+            382971,
+            489477,
+            664009,
+            561670,
+            527960
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 21,
+          "daysSinceCreativeChange": 2,
+          "daysSinceLaunch": 23,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "LIMITED",
+              "act": false,
+              "text": "Показ ограничен: стратегия ставок ограничивает показ — модерация ни при чём"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Low креативов: 21 (обновляли 2д назад, цикл ещё не подошёл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_playoff|p_inhouse|g_WW|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|26.08.2026|tROAS_all-geo_White_GPT-1",
+          "reason": "изменено 3д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.45,
+          "roasD3": 1.57,
+          "roasD7_3d": 1.66,
+          "roasD7_14d": 1.69,
+          "installs7d": [
+            2425,
+            2829,
+            2874,
+            2253,
+            2956,
+            4909,
+            4205
+          ],
+          "budgetUsd": 4357,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 56314,
+          "recentInAppPerDay": [
+            54058,
+            51402,
+            51571,
+            41257,
+            54714,
+            81676,
+            59520
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 3,
+          "daysSinceCreativeChange": 8,
+          "daysSinceLaunch": 9,
+          "daysSinceAnyChange": 3,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Low креативов: 3 (обновляли 8д назад, цикл ещё не подошёл)"
+            }
+          ]
+        }
+      ],
+      "ocid": "1507168550"
+    },
+    {
+      "name": "GA2 - Solitaire (d3)",
+      "customerId": "143-205-5162",
+      "campaigns": [
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_solitaire|p_inhouse|g_ES|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.35,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_solitaire|p_inhouse|g_ID|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.35,
+          "roasD3": 1.21,
+          "roasD7_3d": 1.28,
+          "roasD7_14d": 1.28,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            6,
+            45,
+            48
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 328,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            62,
+            1312,
+            921
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_solitaire|p_inhouse|g_IN|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.35,
+          "roasD3": 0.44,
+          "roasD7_3d": 0.47,
+          "roasD7_14d": 0.47,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            3
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 11,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            72,
+            5
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 11/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_solitaire|p_inhouse|g_UK|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.35,
+          "roasD3": 0.04,
+          "roasD7_3d": 0.04,
+          "roasD7_14d": 0.04,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 4,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            9,
+            20
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 4/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_solitaire|p_inhouse|g_US|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.35,
+          "roasD3": 0.85,
+          "roasD7_3d": 0.9,
+          "roasD7_14d": 0.9,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            18,
+            25
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 158,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            308,
+            800
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_solitaire|p_inhouse|g_WW|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.4,
+          "roasD3": 0.92,
+          "roasD7_3d": 0.97,
+          "roasD7_14d": 0.97,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            11,
+            113,
+            231
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1538,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            545,
+            5264,
+            4959
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": 3,
+          "daysSinceMajorChange": null,
+          "flags": [],
+          "changeHistory": [
+            {
+              "date": "2026-09-01 13:17:22.725918",
+              "resource": "CAMPAIGN",
+              "operation": "CREATE",
+              "fields": "advertisingChannelType,advertisingChannelSubType,appCampaignSetting.appId,biddingStrategyType,campaignBudget,name,status,targetRoas.targetRoas"
+            },
+            {
+              "date": "2026-09-01 13:17:22.725918",
+              "resource": "CAMPAIGN_BUDGET",
+              "operation": "CREATE",
+              "fields": "amountMicros,deliveryMethod,explicitlyShared,id,name,period,type"
+            },
+            {
+              "date": "2026-09-01 13:17:40.617335",
+              "resource": "CAMPAIGN",
+              "operation": "UPDATE",
+              "fields": "status"
+            },
+            {
+              "date": "2026-09-01 13:18:22.768877",
+              "resource": "CAMPAIGN",
+              "operation": "UPDATE",
+              "fields": "name"
+            },
+            {
+              "date": "2026-09-01 13:18:35.622373",
+              "resource": "CAMPAIGN",
+              "operation": "UPDATE",
+              "fields": "targetRoas.targetRoas"
+            }
+          ],
+          "campaignIdReal": "24206622163"
+        }
+      ],
+      "ocid": "7417934358"
+    },
+    {
+      "name": "GA3 - Blocks (d3)",
+      "customerId": "406-668-7725",
+      "campaigns": [
+        {
+          "action": "REVIEW",
+          "name": "ap_blocks|p_inhouse|g_PH|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|30.07.2026|tROAS",
+          "reason": "прибыльна, но не держит высокий таргет (ROAS d3 99% < tROAS 121%), снижаем tROAS к 99% шагом <=20% (-> 99%) или наблюдаем",
+          "troas": 1.21,
+          "roasD3": 0.99,
+          "roasD7_3d": 1.05,
+          "roasD7_14d": 1.05,
+          "installs7d": [
+            784,
+            917,
+            758,
+            777,
+            298,
+            440,
+            297
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_CONSTRAINED"
+          ],
+          "avgInAppPerDay": 15228,
+          "recentInAppPerDay": [
+            22024,
+            23718,
+            17485,
+            22012,
+            5144,
+            10452,
+            5761
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 7,
+          "daysSinceCreativeChange": 13,
+          "daysSinceLaunch": 36,
+          "daysSinceAnyChange": 11,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "LIMITED",
+              "act": false,
+              "text": "LIMITED (BIDDING_STRATEGY_CONSTRAINED) - не модерация, см. правило 13"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Д3: креативов с LOW 7 (обновлялись 13д назад, ждём цикл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_blocks|p_inhouse|g_BR|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|04.06.2026|tROAS",
+          "reason": "изменено 2д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.27,
+          "roasD3": 1.42,
+          "roasD7_3d": 1.5,
+          "roasD7_14d": 1.44,
+          "installs7d": [
+            2789,
+            3105,
+            2722,
+            3618,
+            3636,
+            3652,
+            2850
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 64327,
+          "recentInAppPerDay": [
+            56668,
+            61620,
+            52459,
+            73289,
+            76884,
+            75614,
+            53755
+          ],
+          "disapprovedAds": 1,
+          "limitedAds": 0,
+          "lowAssets": 5,
+          "daysSinceCreativeChange": 2,
+          "daysSinceLaunch": 92,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "Д1",
+              "act": true,
+              "text": "Д1: объявлений DISAPPROVED 1 -> удалить/заменить"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Д3: креативов с LOW 5 (обновлялись 2д назад, ждём цикл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_blocks|p_inhouse|g_MX|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|04.06.2026|tROAS",
+          "reason": "изменено 4д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.22,
+          "roasD3": 1.27,
+          "roasD7_3d": 1.34,
+          "roasD7_14d": 1.21,
+          "installs7d": [
+            1002,
+            962,
+            760,
+            707,
+            579,
+            505,
+            243
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_CONSTRAINED"
+          ],
+          "avgInAppPerDay": 14817,
+          "recentInAppPerDay": [
+            21874,
+            22469,
+            17398,
+            14395,
+            13468,
+            9661,
+            4452
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 18,
+          "daysSinceCreativeChange": 4,
+          "daysSinceLaunch": 92,
+          "daysSinceAnyChange": 4,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "LIMITED",
+              "act": false,
+              "text": "LIMITED (BIDDING_STRATEGY_CONSTRAINED) - не модерация, см. правило 13"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Д3: креативов с LOW 18 (обновлялись 4д назад, ждём цикл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_blocks|p_inhouse|g_TH|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|03.07.2026|tROAS",
+          "reason": "изменено 2д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.33,
+          "roasD3": 1.4,
+          "roasD7_3d": 1.48,
+          "roasD7_14d": 1.45,
+          "installs7d": [
+            423,
+            485,
+            454,
+            440,
+            346,
+            343,
+            264
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 5386,
+          "recentInAppPerDay": [
+            5116,
+            6598,
+            6610,
+            5698,
+            4928,
+            5947,
+            2806
+          ],
+          "disapprovedAds": 1,
+          "limitedAds": 0,
+          "lowAssets": 3,
+          "daysSinceCreativeChange": 2,
+          "daysSinceLaunch": 63,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "Д1",
+              "act": true,
+              "text": "Д1: объявлений DISAPPROVED 1 -> удалить/заменить"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Д3: креативов с LOW 3 (обновлялись 2д назад, ждём цикл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_blocks|p_inhouse|g_WW|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|03.08.2026|tROAS",
+          "reason": "изменено 2д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.35,
+          "roasD3": 0.93,
+          "roasD7_3d": 0.98,
+          "roasD7_14d": 1.15,
+          "installs7d": [
+            293,
+            352,
+            286,
+            281,
+            286,
+            338,
+            303
+          ],
+          "budgetUsd": 1498,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_CONSTRAINED"
+          ],
+          "avgInAppPerDay": 6952,
+          "recentInAppPerDay": [
+            8059,
+            9529,
+            6765,
+            6857,
+            5085,
+            6539,
+            5828
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 4,
+          "daysSinceCreativeChange": 2,
+          "daysSinceLaunch": 32,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "LIMITED",
+              "act": false,
+              "text": "Показ ограничен: стратегия ставок ограничивает показ — модерация ни при чём"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Low креативов: 4 (обновляли 2д назад, цикл ещё не подошёл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_blocks|p_inhouse|g_ID|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|20.08.2026|tROAS",
+          "reason": "изменено 2д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.32,
+          "roasD3": 1.34,
+          "roasD7_3d": 1.42,
+          "roasD7_14d": 1.55,
+          "installs7d": [
+            3323,
+            3132,
+            3345,
+            4585,
+            3408,
+            3041,
+            2493
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_CONSTRAINED"
+          ],
+          "avgInAppPerDay": 71802,
+          "recentInAppPerDay": [
+            75226,
+            70573,
+            69868,
+            99754,
+            71889,
+            65570,
+            49735
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 4,
+          "daysSinceCreativeChange": 2,
+          "daysSinceLaunch": 15,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": 15,
+          "flags": [
+            {
+              "code": "LIMITED",
+              "act": false,
+              "text": "LIMITED (BIDDING_STRATEGY_CONSTRAINED) - не модерация, см. правило 13"
+            },
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Д3: креативов с LOW 4 (обновлялись 2д назад, ждём цикл)"
+            }
+          ]
+        }
+      ],
+      "ocid": "7890960386"
+    },
+    {
+      "name": "GA4 - Boostplay (d3)",
+      "customerId": "883-186-8282",
+      "campaigns": [
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_AR|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 0.2,
+          "roasD7_3d": 0.22,
+          "roasD7_14d": 0.22,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            2
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 4,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            17,
+            9
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 4/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_CA|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 0.57,
+          "roasD7_3d": 0.6,
+          "roasD7_14d": 0.6,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            6
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 1/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_DK|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_FI|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_ID|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 1.33,
+          "roasD7_3d": 1.41,
+          "roasD7_14d": 1.41,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            3,
+            10,
+            4
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 38,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            124,
+            104,
+            23
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 38/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_MX|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 0.74,
+          "roasD7_3d": 0.78,
+          "roasD7_14d": 0.78,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            5
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 5,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            23,
+            15
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": 1,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 5/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_UK|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 0.7,
+          "roasD7_3d": 0.74,
+          "roasD7_14d": 0.74,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            6,
+            4
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 1/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_US|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 1.66,
+          "roasD7_3d": 1.75,
+          "roasD7_14d": 1.75,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            17,
+            18
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 23,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            85,
+            69
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 23/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_WW|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|ROAS",
+          "reason": "кампания моложе 7 дней (день 4), недостаточно данных для оценки обучения",
+          "troas": 1.2,
+          "roasD3": 0.49,
+          "roasD7_3d": 0.52,
+          "roasD7_14d": 0.52,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            19,
+            92,
+            44
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 113,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            77,
+            523,
+            188
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 3,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_AR|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_CA|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_DK|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_FI|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_ID|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_MX|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_UK|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_US|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_boostplay|p_inhouse|g_WW|s_google|acc_4add|at_aos|u_ua|o_uac|t_main|a_broad|f_full|03.09.2026|ROAS",
+          "reason": "фаза обучения (день 2 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 2723,
+          "primaryStatus": "PENDING",
+          "primaryStatusReasons": [
+            "BIDDING_STRATEGY_LEARNING",
+            "MOST_ADS_UNDER_REVIEW"
+          ],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 1,
+          "daysSinceAnyChange": null,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "REVIEW_PENDING",
+              "act": false,
+              "text": "Объявления на модерации — ничего не отклонено, ждём проверку"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        }
+      ],
+      "ocid": "7928704550"
+    },
+    {
+      "name": "GA5",
+      "customerId": "643-772-0493",
+      "campaigns": [
+        {
+          "action": "NOT_ELIGIBLE",
+          "name": "ap_blocks|p_inhouse|g_WW|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|26.08.2026|tROAS_spanish",
+          "reason": "статус NOT_ELIGIBLE - кампания не показывается, писать в поддержку",
+          "troas": 1.5,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0.88,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "NOT_ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 1,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 9,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "Д1",
+              "act": true,
+              "text": "Отклонённых объявлений: 1 — удалить или заменить"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "NOT_ELIGIBLE",
+          "name": "ap_blocks|p_inhouse|g_WW|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|26.08.2026|tROAS_thai",
+          "reason": "статус NOT_ELIGIBLE - кампания не показывается, писать в поддержку",
+          "troas": 1.5,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0,
+          "installs7d": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "NOT_ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 0,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "disapprovedAds": 1,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 9,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "Д1",
+              "act": true,
+              "text": "Отклонённых объявлений: 1 — удалить или заменить"
+            },
+            {
+              "code": "п14",
+              "act": false,
+              "text": "In-app действий: 0/день (порог 70)"
+            }
+          ]
+        },
+        {
+          "action": "HOLD",
+          "name": "ap_blocks|p_inhouse|g_WW|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|26.08.2026|tROAS_english",
+          "reason": "tROAS 150% на уровне ориентира 142% или выше и держится, ничего не делаем или масштабируем бюджет <20%",
+          "troas": 1.5,
+          "roasD3": 1.48,
+          "roasD7_3d": 1.56,
+          "roasD7_14d": 1.31,
+          "installs7d": [
+            270,
+            256,
+            308,
+            406,
+            205,
+            245,
+            262
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 7063,
+          "recentInAppPerDay": [
+            6724,
+            5490,
+            6794,
+            12123,
+            3441,
+            6387,
+            8481
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 3,
+          "daysSinceCreativeChange": 7,
+          "daysSinceLaunch": 9,
+          "daysSinceAnyChange": 7,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Low креативов: 3 (обновляли 7д назад, цикл ещё не подошёл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_blocks|p_inhouse|g_BR|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|04.06.2026|tROAS",
+          "reason": "фаза обучения (день 5 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1.4,
+          "roasD3": 1.35,
+          "roasD7_3d": 1.43,
+          "roasD7_14d": 1.43,
+          "installs7d": [
+            0,
+            0,
+            0,
+            96,
+            731,
+            469,
+            1276
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 7484,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            1751,
+            16389,
+            10236,
+            24009
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 4,
+          "daysSinceAnyChange": 1,
+          "daysSinceMajorChange": 4,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_blocks|p_inhouse|g_ID|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|20.08.2026|tROAS",
+          "reason": "фаза обучения (день 5 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1.4,
+          "roasD3": 1.31,
+          "roasD7_3d": 1.38,
+          "roasD7_14d": 1.38,
+          "installs7d": [
+            0,
+            0,
+            0,
+            90,
+            281,
+            149,
+            80
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 2894,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            3035,
+            12237,
+            3222,
+            1763
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 4,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": 4,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_blocks|p_inhouse|g_MX|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|04.06.2026|tROAS",
+          "reason": "фаза обучения (день 5 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1.4,
+          "roasD3": 1.81,
+          "roasD7_3d": 1.92,
+          "roasD7_14d": 1.92,
+          "installs7d": [
+            0,
+            0,
+            0,
+            6,
+            45,
+            22,
+            80
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 439,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            107,
+            730,
+            550,
+            1688
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 4,
+          "daysSinceAnyChange": 4,
+          "daysSinceMajorChange": 4,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_blocks|p_inhouse|g_PH|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|30.07.2026|tROAS",
+          "reason": "фаза обучения (день 5 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1.4,
+          "roasD3": 2.65,
+          "roasD7_3d": 2.8,
+          "roasD7_14d": 2.8,
+          "installs7d": [
+            0,
+            0,
+            0,
+            2,
+            9,
+            10,
+            4
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 313,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            191,
+            1655,
+            263,
+            84
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 4,
+          "daysSinceAnyChange": 3,
+          "daysSinceMajorChange": 4,
+          "flags": []
+        },
+        {
+          "action": "WAIT_LEARNING",
+          "name": "ap_blocks|p_inhouse|g_TH|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|03.07.2026|tROAS",
+          "reason": "фаза обучения (день 5 из 14), набираем конверсии, следим за откруткой и бюджетом",
+          "troas": 1.4,
+          "roasD3": 1.42,
+          "roasD7_3d": 1.5,
+          "roasD7_14d": 1.5,
+          "installs7d": [
+            0,
+            0,
+            0,
+            5,
+            34,
+            52,
+            39
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "LIMITED",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 297,
+          "recentInAppPerDay": [
+            0,
+            0,
+            0,
+            24,
+            566,
+            499,
+            993
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 4,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": 4,
+          "flags": []
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_blocks|p_inhouse|g_WW|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|26.08.2026|tROAS_indones",
+          "reason": "изменено 2д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.5,
+          "roasD3": 1.17,
+          "roasD7_3d": 1.24,
+          "roasD7_14d": 1.15,
+          "installs7d": [
+            174,
+            94,
+            93,
+            54,
+            19,
+            9,
+            11
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1989,
+          "recentInAppPerDay": [
+            4645,
+            2895,
+            2555,
+            2135,
+            1050,
+            529,
+            116
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 4,
+          "daysSinceCreativeChange": 2,
+          "daysSinceLaunch": 9,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": [
+            {
+              "code": "Д3",
+              "act": false,
+              "text": "Low креативов: 4 (обновляли 2д назад, цикл ещё не подошёл)"
+            }
+          ]
+        },
+        {
+          "action": "WAIT_CONV_WINDOW",
+          "name": "ap_blocks|p_inhouse|g_WW|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|26.08.2026|tROAS_brazilian",
+          "reason": "изменено 2д назад, ждем 4д (окно конверсии 3 дня + 1 день на долет ROAS d1) для чистого замера",
+          "troas": 1.5,
+          "roasD3": 0.68,
+          "roasD7_3d": 0.72,
+          "roasD7_14d": 1.15,
+          "installs7d": [
+            200,
+            47,
+            105,
+            53,
+            53,
+            14,
+            8
+          ],
+          "budgetUsd": 4084,
+          "primaryStatus": "ELIGIBLE",
+          "primaryStatusReasons": [],
+          "avgInAppPerDay": 1335,
+          "recentInAppPerDay": [
+            3492,
+            1199,
+            2524,
+            1143,
+            762,
+            119,
+            109
+          ],
+          "disapprovedAds": 0,
+          "limitedAds": 0,
+          "lowAssets": 0,
+          "daysSinceCreativeChange": null,
+          "daysSinceLaunch": 9,
+          "daysSinceAnyChange": 2,
+          "daysSinceMajorChange": null,
+          "flags": []
+        }
+      ]
+    }
+  ]
+}
