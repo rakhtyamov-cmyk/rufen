@@ -1076,30 +1076,6 @@
               "resource": "CAMPAIGN",
               "operation": "UPDATE",
               "fields": "targetRoas.targetRoas"
-            },
-            {
-              "date": "2026-09-03 10:05:12",
-              "resource": "CAMPAIGN_CRITERION",
-              "operation": "REMOVE",
-              "fields": "location",
-              "geo": {
-                "op": "REMOVE",
-                "name": "Бразилия",
-                "code": "BR"
-              },
-              "mock": true
-            },
-            {
-              "date": "2026-09-05 14:40:03",
-              "resource": "CAMPAIGN_CRITERION",
-              "operation": "CREATE",
-              "fields": "location",
-              "geo": {
-                "op": "ADD",
-                "name": "Мексика",
-                "code": "MX"
-              },
-              "mock": true
             }
           ],
           "campaignIdReal": "24206622163"

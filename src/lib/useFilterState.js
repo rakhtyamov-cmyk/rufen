@@ -10,6 +10,7 @@ export const FILTER_DEFAULTS = {
   geos: [],      // multi-select гео
   sort: 'urgency',
   attn: false,   // "только требуют внимания"
+  day: null,     // индекс дня в окне истории (0..6); null = последний/сегодня
 };
 
 function parseSearch(search) {
@@ -21,6 +22,7 @@ function parseSearch(search) {
     geos: params.get('geos') ? params.get('geos').split(',').filter(Boolean) : FILTER_DEFAULTS.geos,
     sort: params.get('sort') || FILTER_DEFAULTS.sort,
     attn: params.get('attn') === '1',
+    day: params.has('day') ? Number(params.get('day')) : FILTER_DEFAULTS.day,
   };
 }
 
@@ -32,6 +34,7 @@ function serialize(state) {
   if (state.geos.length) params.set('geos', state.geos.join(','));
   if (state.sort && state.sort !== FILTER_DEFAULTS.sort) params.set('sort', state.sort);
   if (state.attn) params.set('attn', '1');
+  if (state.day !== null && state.day !== undefined) params.set('day', String(state.day));
   return params.toString();
 }
 

@@ -1,15 +1,15 @@
 {
   "_mock": true,
   "_note": "Синтетические данные для прототипирования \"Истории по дням\" (upgrade.md п.1.3). Реальны только даты и installs (из campaigns.json installs7d). ROAS d3/d7 — детерминированный псевдослучайный walk назад от сегодняшнего реального значения, НЕ фактические исторические показания. tROAS/бюджет считаются неизменными за неделю. Заменить на реальный лог, когда manage.gs начнёт писать по записи на кампанию на прогон.",
-  "generatedFrom": "2026-09-04T21:56:00+04:00",
+  "generatedFrom": "2026-09-07T11:47:00+04:00",
   "days": [
-    "2026-08-29",
-    "2026-08-30",
-    "2026-08-31",
     "2026-09-01",
     "2026-09-02",
     "2026-09-03",
-    "2026-09-04"
+    "2026-09-04",
+    "2026-09-05",
+    "2026-09-06",
+    "2026-09-07"
   ],
   "campaigns": [
     {
@@ -17,67 +17,67 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 2218,
-          "troas": 1.4,
-          "budgetUsd": 2995,
-          "roasD3": 1.4167,
-          "roasD7_3d": 1.4979,
-          "roasD7_14d": 1.4996
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 2292,
-          "troas": 1.4,
-          "budgetUsd": 2995,
-          "roasD3": 1.287,
-          "roasD7_3d": 1.4121,
-          "roasD7_14d": 1.5291
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 2477,
-          "troas": 1.4,
-          "budgetUsd": 2995,
-          "roasD3": 1.4453,
-          "roasD7_3d": 1.5134,
-          "roasD7_14d": 1.4589
-        },
-        {
           "date": "2026-09-01",
-          "installs": 2397,
+          "installs": 2411,
           "troas": 1.4,
           "budgetUsd": 2995,
-          "roasD3": 1.5198,
-          "roasD7_3d": 1.5086,
-          "roasD7_14d": 1.4347
+          "roasD3": 1.3974,
+          "roasD7_3d": 1.4691,
+          "roasD7_14d": 1.5097
         },
         {
           "date": "2026-09-02",
-          "installs": 2292,
+          "installs": 2310,
           "troas": 1.4,
           "budgetUsd": 2995,
-          "roasD3": 1.4611,
-          "roasD7_3d": 1.6423,
-          "roasD7_14d": 1.3827
+          "roasD3": 1.2695,
+          "roasD7_3d": 1.385,
+          "roasD7_14d": 1.5394
         },
         {
           "date": "2026-09-03",
-          "installs": 2429,
+          "installs": 2460,
           "troas": 1.4,
           "budgetUsd": 2995,
-          "roasD3": 1.3751,
-          "roasD7_3d": 1.6459,
-          "roasD7_14d": 1.4572
+          "roasD3": 1.4256,
+          "roasD7_3d": 1.4843,
+          "roasD7_14d": 1.4686
         },
         {
           "date": "2026-09-04",
-          "installs": 2407,
+          "installs": 2476,
           "troas": 1.4,
           "budgetUsd": 2995,
-          "roasD3": 1.47,
-          "roasD7_3d": 1.56,
-          "roasD7_14d": 1.49
+          "roasD3": 1.4991,
+          "roasD7_3d": 1.4796,
+          "roasD7_14d": 1.4443
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 2627,
+          "troas": 1.4,
+          "budgetUsd": 2995,
+          "roasD3": 1.4412,
+          "roasD7_3d": 1.6107,
+          "roasD7_14d": 1.3919
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 3231,
+          "troas": 1.4,
+          "budgetUsd": 2995,
+          "roasD3": 1.3563,
+          "roasD7_3d": 1.6142,
+          "roasD7_14d": 1.467
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 4913,
+          "troas": 1.4,
+          "budgetUsd": 2995,
+          "roasD3": 1.45,
+          "roasD7_3d": 1.53,
+          "roasD7_14d": 1.5
         }
       ]
     },
@@ -86,67 +86,67 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 3688,
+          "date": "2026-09-01",
+          "installs": 6319,
           "troas": 1.4,
           "budgetUsd": 2995,
           "roasD3": 1.1089,
-          "roasD7_3d": 1.3488,
-          "roasD7_14d": 1.5443
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 3990,
-          "troas": 1.4,
-          "budgetUsd": 2995,
-          "roasD3": 1.2096,
-          "roasD7_3d": 1.3669,
-          "roasD7_14d": 1.4738
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 5304,
-          "troas": 1.4,
-          "budgetUsd": 2995,
-          "roasD3": 1.1985,
-          "roasD7_3d": 1.4596,
-          "roasD7_14d": 1.4551
-        },
-        {
-          "date": "2026-09-01",
-          "installs": 6294,
-          "troas": 1.4,
-          "budgetUsd": 2995,
-          "roasD3": 1.1273,
-          "roasD7_3d": 1.5221,
-          "roasD7_14d": 1.444
+          "roasD7_3d": 1.3401,
+          "roasD7_14d": 1.5245
         },
         {
           "date": "2026-09-02",
-          "installs": 6982,
+          "installs": 7025,
           "troas": 1.4,
           "budgetUsd": 2995,
-          "roasD3": 1.2175,
-          "roasD7_3d": 1.4464,
-          "roasD7_14d": 1.4574
+          "roasD3": 1.2096,
+          "roasD7_3d": 1.358,
+          "roasD7_14d": 1.4549
         },
         {
           "date": "2026-09-03",
-          "installs": 7282,
+          "installs": 7362,
           "troas": 1.4,
           "budgetUsd": 2995,
-          "roasD3": 1.3386,
-          "roasD7_3d": 1.4427,
-          "roasD7_14d": 1.5465
+          "roasD3": 1.1985,
+          "roasD7_3d": 1.4502,
+          "roasD7_14d": 1.4364
         },
         {
           "date": "2026-09-04",
-          "installs": 6438,
+          "installs": 6587,
+          "troas": 1.4,
+          "budgetUsd": 2995,
+          "roasD3": 1.1273,
+          "roasD7_3d": 1.5122,
+          "roasD7_14d": 1.4255
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 6360,
+          "troas": 1.4,
+          "budgetUsd": 2995,
+          "roasD3": 1.2175,
+          "roasD7_3d": 1.437,
+          "roasD7_14d": 1.4387
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 5957,
+          "troas": 1.4,
+          "budgetUsd": 2995,
+          "roasD3": 1.3386,
+          "roasD7_3d": 1.4333,
+          "roasD7_14d": 1.5266
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 5934,
           "troas": 1.4,
           "budgetUsd": 2995,
           "roasD3": 1.45,
-          "roasD7_3d": 1.54,
-          "roasD7_14d": 1.56
+          "roasD7_3d": 1.53,
+          "roasD7_14d": 1.54
         }
       ]
     },
@@ -155,33 +155,6 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.4,
@@ -192,30 +165,57 @@
         },
         {
           "date": "2026-09-02",
-          "installs": 14,
+          "installs": 15,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 2.752,
-          "roasD7_3d": 2.8617,
-          "roasD7_14d": 2.5682
+          "roasD3": 1.8856,
+          "roasD7_3d": 1.9051,
+          "roasD7_14d": 2.2459
         },
         {
           "date": "2026-09-03",
           "installs": 212,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 2.5026,
-          "roasD7_3d": 2.6144,
-          "roasD7_14d": 2.549
+          "roasD3": 2.0218,
+          "roasD7_3d": 1.9619,
+          "roasD7_14d": 2.1599
         },
         {
           "date": "2026-09-04",
-          "installs": 180,
+          "installs": 183,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 2.28,
-          "roasD7_3d": 2.41,
-          "roasD7_14d": 2.41
+          "roasD3": 2.2437,
+          "roasD7_3d": 2.0716,
+          "roasD7_14d": 2.1641
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 122,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 2.1726,
+          "roasD7_3d": 2.2561,
+          "roasD7_14d": 2.1526
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 172,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.9757,
+          "roasD7_3d": 2.0611,
+          "roasD7_14d": 2.1365
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 137,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.8,
+          "roasD7_3d": 1.9,
+          "roasD7_14d": 2.02
         }
       ]
     },
@@ -223,33 +223,6 @@
       "name": "ap_playoff|p_inhouse|g_CL|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "259-330-6743",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -264,27 +237,54 @@
           "installs": 5,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 2.3914,
-          "roasD7_3d": 2.4305,
-          "roasD7_14d": 2.5541
+          "roasD3": 2.4305,
+          "roasD7_3d": 2.8967,
+          "roasD7_14d": 3.2828
         },
         {
           "date": "2026-09-03",
           "installs": 54,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 2.2386,
-          "roasD7_3d": 2.5848,
-          "roasD7_14d": 2.4677
+          "roasD3": 2.4387,
+          "roasD7_3d": 3.2144,
+          "roasD7_14d": 3.1409
         },
         {
           "date": "2026-09-04",
-          "installs": 88,
+          "installs": 91,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 2.26,
-          "roasD7_3d": 2.39,
-          "roasD7_14d": 2.39
+          "roasD3": 2.7124,
+          "roasD7_3d": 3.0772,
+          "roasD7_14d": 2.9831
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 64,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 2.857,
+          "roasD7_3d": 2.8983,
+          "roasD7_14d": 2.896
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 69,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 2.6745,
+          "roasD7_3d": 3.0823,
+          "roasD7_14d": 2.7981
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 77,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 2.7,
+          "roasD7_3d": 2.85,
+          "roasD7_14d": 2.71
         }
       ]
     },
@@ -292,33 +292,6 @@
       "name": "ap_playoff|p_inhouse|g_CO|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "259-330-6743",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -330,30 +303,57 @@
         },
         {
           "date": "2026-09-02",
-          "installs": 37,
+          "installs": 38,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.6614,
-          "roasD7_3d": 1.6365,
-          "roasD7_14d": 1.7098
+          "roasD3": 1.6891,
+          "roasD7_3d": 1.5658,
+          "roasD7_14d": 1.7399
         },
         {
           "date": "2026-09-03",
-          "installs": 475,
+          "installs": 482,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.717,
-          "roasD7_3d": 1.5664,
-          "roasD7_14d": 1.7389
+          "roasD3": 1.6294,
+          "roasD7_3d": 1.6096,
+          "roasD7_14d": 1.6588
         },
         {
           "date": "2026-09-04",
-          "installs": 443,
+          "installs": 457,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.65,
-          "roasD7_3d": 1.74,
-          "roasD7_14d": 1.74
+          "roasD3": 1.7919,
+          "roasD7_3d": 1.5081,
+          "roasD7_14d": 1.6354
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 411,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.6009,
+          "roasD7_3d": 1.5801,
+          "roasD7_14d": 1.6411
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 403,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.6546,
+          "roasD7_3d": 1.5124,
+          "roasD7_14d": 1.669
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 381,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.59,
+          "roasD7_3d": 1.68,
+          "roasD7_14d": 1.67
         }
       ]
     },
@@ -361,33 +361,6 @@
       "name": "ap_playoff|p_inhouse|g_EG|s_google|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "259-330-6743",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -402,27 +375,54 @@
           "installs": 13,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.6087,
-          "roasD7_3d": 1.3692,
-          "roasD7_14d": 1.689
+          "roasD3": 2.1148,
+          "roasD7_3d": 1.4046,
+          "roasD7_14d": 1.9706
         },
         {
           "date": "2026-09-03",
-          "installs": 100,
+          "installs": 104,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.6664,
-          "roasD7_3d": 1.4864,
-          "roasD7_14d": 1.6359
+          "roasD3": 1.9657,
+          "roasD7_3d": 1.4787,
+          "roasD7_14d": 1.9917
         },
         {
           "date": "2026-09-04",
-          "installs": 85,
+          "installs": 87,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.51,
-          "roasD7_3d": 1.59,
-          "roasD7_14d": 1.59
+          "roasD3": 1.942,
+          "roasD7_3d": 1.5694,
+          "roasD7_14d": 2.0341
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 121,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 2.0135,
+          "roasD7_3d": 1.7223,
+          "roasD7_14d": 2.029
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 147,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 2.0858,
+          "roasD7_3d": 1.8696,
+          "roasD7_14d": 1.9651
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 147,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.89,
+          "roasD7_3d": 2,
+          "roasD7_14d": 1.91
         }
       ]
     },
@@ -430,33 +430,6 @@
       "name": "ap_playoff|p_inhouse|g_MX|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "259-330-6743",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -471,27 +444,54 @@
           "installs": 43,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.5087,
-          "roasD7_3d": 1.4435,
-          "roasD7_14d": 1.8501
+          "roasD3": 1.4339,
+          "roasD7_3d": 1.177,
+          "roasD7_14d": 1.8276
         },
         {
           "date": "2026-09-03",
-          "installs": 710,
+          "installs": 727,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.6091,
-          "roasD7_3d": 1.5944,
-          "roasD7_14d": 1.7497
+          "roasD3": 1.3453,
+          "roasD7_3d": 1.3009,
+          "roasD7_14d": 1.7989
         },
         {
           "date": "2026-09-04",
-          "installs": 783,
+          "installs": 810,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.65,
-          "roasD7_3d": 1.74,
-          "roasD7_14d": 1.74
+          "roasD3": 1.3274,
+          "roasD7_3d": 1.3528,
+          "roasD7_14d": 1.8392
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 859,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.4447,
+          "roasD7_3d": 1.3854,
+          "roasD7_14d": 1.7757
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 975,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.5408,
+          "roasD7_3d": 1.5303,
+          "roasD7_14d": 1.6793
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 960,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.58,
+          "roasD7_3d": 1.67,
+          "roasD7_14d": 1.67
         }
       ]
     },
@@ -499,33 +499,6 @@
       "name": "ap_playoff|p_inhouse|g_PE|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "259-330-6743",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -540,27 +513,54 @@
           "installs": 3,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.6991,
-          "roasD7_3d": 1.8461,
-          "roasD7_14d": 1.6905
+          "roasD3": 1.6645,
+          "roasD7_3d": 1.9736,
+          "roasD7_14d": 1.7904
         },
         {
           "date": "2026-09-03",
-          "installs": 90,
+          "installs": 94,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.6777,
-          "roasD7_3d": 1.7159,
-          "roasD7_14d": 1.7113
+          "roasD3": 1.7528,
+          "roasD7_3d": 1.83,
+          "roasD7_14d": 1.71
         },
         {
           "date": "2026-09-04",
           "installs": 115,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.55,
-          "roasD7_3d": 1.64,
-          "roasD7_14d": 1.64
+          "roasD3": 1.787,
+          "roasD7_3d": 1.7933,
+          "roasD7_14d": 1.6545
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 113,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.7977,
+          "roasD7_3d": 1.9474,
+          "roasD7_14d": 1.7523
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 93,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.7751,
+          "roasD7_3d": 1.8101,
+          "roasD7_14d": 1.7739
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 102,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.64,
+          "roasD7_3d": 1.73,
+          "roasD7_14d": 1.7
         }
       ]
     },
@@ -568,33 +568,6 @@
       "name": "ap_playoff|p_inhouse|g_PL|s_google|at_aos|u_ua|o_uac|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "259-330-6743",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -609,27 +582,54 @@
           "installs": 2,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.5772,
-          "roasD7_3d": 1.6174,
-          "roasD7_14d": 1.7352
+          "roasD3": 1.2463,
+          "roasD7_3d": 1.1932,
+          "roasD7_14d": 1.4888
         },
         {
           "date": "2026-09-03",
           "installs": 31,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.4882,
-          "roasD7_3d": 1.702,
-          "roasD7_14d": 1.762
+          "roasD3": 1.202,
+          "roasD7_3d": 1.2656,
+          "roasD7_14d": 1.5169
         },
         {
           "date": "2026-09-04",
           "installs": 20,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.64,
-          "roasD7_3d": 1.73,
-          "roasD7_14d": 1.73
+          "roasD3": 1.3027,
+          "roasD7_3d": 1.3411,
+          "roasD7_14d": 1.4387
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 20,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.2887,
+          "roasD7_3d": 1.3182,
+          "roasD7_14d": 1.4945
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 26,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.216,
+          "roasD7_3d": 1.3872,
+          "roasD7_14d": 1.5176
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 16,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.34,
+          "roasD7_3d": 1.41,
+          "roasD7_14d": 1.49
         }
       ]
     },
@@ -638,33 +638,6 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.4,
@@ -678,27 +651,54 @@
           "installs": 15,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.6854,
-          "roasD7_3d": 1.4509,
-          "roasD7_14d": 1.8244
+          "roasD3": 1.8333,
+          "roasD7_3d": 1.3756,
+          "roasD7_14d": 1.7149
         },
         {
           "date": "2026-09-03",
-          "installs": 206,
+          "installs": 211,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.7092,
-          "roasD7_3d": 1.6082,
-          "roasD7_14d": 1.8235
+          "roasD3": 1.8037,
+          "roasD7_3d": 1.4344,
+          "roasD7_14d": 1.6828
         },
         {
           "date": "2026-09-04",
-          "installs": 220,
+          "installs": 225,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.66,
-          "roasD7_3d": 1.75,
-          "roasD7_14d": 1.75
+          "roasD3": 1.7441,
+          "roasD7_3d": 1.4399,
+          "roasD7_14d": 1.7389
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 214,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.6042,
+          "roasD7_3d": 1.3845,
+          "roasD7_14d": 1.741
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 243,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.6268,
+          "roasD7_3d": 1.5347,
+          "roasD7_14d": 1.7401
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 254,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.58,
+          "roasD7_3d": 1.67,
+          "roasD7_14d": 1.67
         }
       ]
     },
@@ -707,33 +707,6 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.4,
@@ -747,27 +720,54 @@
           "installs": 6,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.0253,
-          "roasD7_3d": 0.9887,
-          "roasD7_14d": 0.9132
+          "roasD3": 0.6996,
+          "roasD7_3d": 0.7553,
+          "roasD7_14d": 0.8353
         },
         {
           "date": "2026-09-03",
           "installs": 15,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 0.9302,
-          "roasD7_3d": 0.971,
-          "roasD7_14d": 0.9339
+          "roasD3": 0.7242,
+          "roasD7_3d": 0.8262,
+          "roasD7_14d": 0.8228
         },
         {
           "date": "2026-09-04",
-          "installs": 23,
+          "installs": 25,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 0.92,
-          "roasD7_3d": 0.97,
-          "roasD7_14d": 0.97
+          "roasD3": 0.7959,
+          "roasD7_3d": 0.8011,
+          "roasD7_14d": 0.834
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 12,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 0.8359,
+          "roasD7_3d": 0.8052,
+          "roasD7_14d": 0.7908
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 25,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 0.7583,
+          "roasD7_3d": 0.7908,
+          "roasD7_14d": 0.8087
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 32,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 0.75,
+          "roasD7_3d": 0.79,
+          "roasD7_14d": 0.84
         }
       ]
     },
@@ -776,33 +776,6 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.4,
@@ -816,27 +789,54 @@
           "installs": 1,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.1272,
-          "roasD7_3d": 1.2095,
-          "roasD7_14d": 1.1684
+          "roasD3": 1.0407,
+          "roasD7_3d": 0.9812,
+          "roasD7_14d": 0.8587
         },
         {
           "date": "2026-09-03",
-          "installs": 59,
+          "installs": 60,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.1663,
-          "roasD7_3d": 1.2206,
-          "roasD7_14d": 1.2414
+          "roasD3": 0.9308,
+          "roasD7_3d": 0.9167,
+          "roasD7_14d": 0.8848
         },
         {
           "date": "2026-09-04",
-          "installs": 34,
+          "installs": 35,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.16,
-          "roasD7_3d": 1.23,
-          "roasD7_14d": 1.23
+          "roasD3": 0.957,
+          "roasD7_3d": 0.9208,
+          "roasD7_14d": 0.9383
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 50,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 0.9135,
+          "roasD7_3d": 0.9735,
+          "roasD7_14d": 0.9784
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 50,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 0.9451,
+          "roasD7_3d": 0.9825,
+          "roasD7_14d": 1.0395
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 69,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 0.94,
+          "roasD7_3d": 0.99,
+          "roasD7_14d": 1.03
         }
       ]
     },
@@ -845,67 +845,67 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 7735,
-          "troas": 1.4,
-          "budgetUsd": 3540,
-          "roasD3": 1.4828,
-          "roasD7_3d": 1.5801,
-          "roasD7_14d": 1.5028
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 7449,
-          "troas": 1.4,
-          "budgetUsd": 3540,
-          "roasD3": 1.6618,
-          "roasD7_3d": 1.6292,
-          "roasD7_14d": 1.4359
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 8359,
-          "troas": 1.4,
-          "budgetUsd": 3540,
-          "roasD3": 1.5857,
-          "roasD7_3d": 1.5712,
-          "roasD7_14d": 1.491
-        },
-        {
           "date": "2026-09-01",
-          "installs": 9860,
+          "installs": 9897,
           "troas": 1.4,
           "budgetUsd": 3540,
-          "roasD3": 1.4556,
-          "roasD7_3d": 1.6079,
-          "roasD7_14d": 1.4763
+          "roasD3": 1.5916,
+          "roasD7_3d": 1.7001,
+          "roasD7_14d": 1.5308
         },
         {
           "date": "2026-09-02",
-          "installs": 12147,
+          "installs": 12213,
           "troas": 1.4,
           "budgetUsd": 3540,
-          "roasD3": 1.4667,
-          "roasD7_3d": 1.5177,
-          "roasD7_14d": 1.4928
+          "roasD3": 1.7836,
+          "roasD7_3d": 1.753,
+          "roasD7_14d": 1.4626
         },
         {
           "date": "2026-09-03",
-          "installs": 10794,
+          "installs": 10875,
           "troas": 1.4,
           "budgetUsd": 3540,
-          "roasD3": 1.4253,
-          "roasD7_3d": 1.5007,
-          "roasD7_14d": 1.5328
+          "roasD3": 1.702,
+          "roasD7_3d": 1.6905,
+          "roasD7_14d": 1.5188
         },
         {
           "date": "2026-09-04",
-          "installs": 11722,
+          "installs": 11949,
           "troas": 1.4,
           "budgetUsd": 3540,
-          "roasD3": 1.5,
-          "roasD7_3d": 1.58,
-          "roasD7_14d": 1.61
+          "roasD3": 1.5624,
+          "roasD7_3d": 1.7301,
+          "roasD7_14d": 1.5038
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 13615,
+          "troas": 1.4,
+          "budgetUsd": 3540,
+          "roasD3": 1.5742,
+          "roasD7_3d": 1.6329,
+          "roasD7_14d": 1.5206
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 14584,
+          "troas": 1.4,
+          "budgetUsd": 3540,
+          "roasD3": 1.5298,
+          "roasD7_3d": 1.6147,
+          "roasD7_14d": 1.5613
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 13694,
+          "troas": 1.4,
+          "budgetUsd": 3540,
+          "roasD3": 1.61,
+          "roasD7_3d": 1.7,
+          "roasD7_14d": 1.64
         }
       ]
     },
@@ -914,67 +914,67 @@
       "accountId": "259-330-6743",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 2425,
-          "troas": 1.45,
-          "budgetUsd": 4357,
-          "roasD3": 1.3822,
-          "roasD7_3d": 1.9655,
-          "roasD7_14d": 1.9044
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 2829,
-          "troas": 1.45,
-          "budgetUsd": 4357,
-          "roasD3": 1.4098,
-          "roasD7_3d": 1.8148,
-          "roasD7_14d": 1.8142
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 2874,
-          "troas": 1.45,
-          "budgetUsd": 4357,
-          "roasD3": 1.5266,
-          "roasD7_3d": 1.7376,
-          "roasD7_14d": 1.9027
-        },
-        {
           "date": "2026-09-01",
-          "installs": 2253,
+          "installs": 2262,
           "troas": 1.45,
           "budgetUsd": 4357,
-          "roasD3": 1.4162,
-          "roasD7_3d": 1.7235,
-          "roasD7_14d": 1.8693
+          "roasD3": 1.391,
+          "roasD7_3d": 1.9892,
+          "roasD7_14d": 1.8931
         },
         {
           "date": "2026-09-02",
-          "installs": 2956,
+          "installs": 2985,
           "troas": 1.45,
           "budgetUsd": 4357,
-          "roasD3": 1.4793,
-          "roasD7_3d": 1.653,
-          "roasD7_14d": 1.8379
+          "roasD3": 1.4188,
+          "roasD7_3d": 1.8367,
+          "roasD7_14d": 1.8034
         },
         {
           "date": "2026-09-03",
-          "installs": 4909,
+          "installs": 4973,
           "troas": 1.45,
           "budgetUsd": 4357,
-          "roasD3": 1.5748,
-          "roasD7_3d": 1.7739,
-          "roasD7_14d": 1.7906
+          "roasD3": 1.5363,
+          "roasD7_3d": 1.7585,
+          "roasD7_14d": 1.8915
         },
         {
           "date": "2026-09-04",
-          "installs": 4205,
+          "installs": 4309,
           "troas": 1.45,
           "budgetUsd": 4357,
-          "roasD3": 1.57,
-          "roasD7_3d": 1.66,
-          "roasD7_14d": 1.69
+          "roasD3": 1.4252,
+          "roasD7_3d": 1.7442,
+          "roasD7_14d": 1.8582
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 4543,
+          "troas": 1.45,
+          "budgetUsd": 4357,
+          "roasD3": 1.4887,
+          "roasD7_3d": 1.6729,
+          "roasD7_14d": 1.827
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 4969,
+          "troas": 1.45,
+          "budgetUsd": 4357,
+          "roasD3": 1.5849,
+          "roasD7_3d": 1.7952,
+          "roasD7_14d": 1.78
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 5084,
+          "troas": 1.45,
+          "budgetUsd": 4357,
+          "roasD3": 1.58,
+          "roasD7_3d": 1.68,
+          "roasD7_14d": 1.68
         }
       ]
     },
@@ -983,33 +983,6 @@
       "accountId": "143-205-5162",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.35,
@@ -1044,6 +1017,33 @@
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 1,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -1051,33 +1051,6 @@
       "name": "ap_solitaire|p_inhouse|g_ID|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "143-205-5162",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -1092,27 +1065,54 @@
           "installs": 6,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 1.2788,
-          "roasD7_3d": 1.3081,
-          "roasD7_14d": 1.3022
+          "roasD3": 1.7482,
+          "roasD7_3d": 1.8773,
+          "roasD7_14d": 2.0977
         },
         {
           "date": "2026-09-03",
           "installs": 45,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 1.3508,
-          "roasD7_3d": 1.2015,
-          "roasD7_14d": 1.3262
+          "roasD3": 1.9819,
+          "roasD7_3d": 1.7893,
+          "roasD7_14d": 1.989
         },
         {
           "date": "2026-09-04",
           "installs": 48,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 1.21,
-          "roasD7_3d": 1.28,
-          "roasD7_14d": 1.28
+          "roasD3": 1.8682,
+          "roasD7_3d": 1.8999,
+          "roasD7_14d": 1.8776
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 68,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 1.8812,
+          "roasD7_3d": 1.9212,
+          "roasD7_14d": 1.8006
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 104,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 1.9872,
+          "roasD7_3d": 1.7646,
+          "roasD7_14d": 1.8339
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 39,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 1.78,
+          "roasD7_3d": 1.88,
+          "roasD7_14d": 1.77
         }
       ]
     },
@@ -1121,33 +1121,6 @@
       "accountId": "143-205-5162",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.35,
@@ -1170,18 +1143,45 @@
           "installs": 3,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 0.4716,
-          "roasD7_3d": 0.4551,
-          "roasD7_14d": 0.4598
+          "roasD3": 0.1469,
+          "roasD7_3d": 0.1066,
+          "roasD7_14d": 0.2416
         },
         {
           "date": "2026-09-04",
           "installs": 3,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 0.44,
-          "roasD7_3d": 0.47,
-          "roasD7_14d": 0.47
+          "roasD3": 0.1385,
+          "roasD7_3d": 0.1146,
+          "roasD7_14d": 0.2429
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 1,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 0.1312,
+          "roasD7_3d": 0.1155,
+          "roasD7_14d": 0.2494
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 1,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 0.1179,
+          "roasD7_3d": 0.1162,
+          "roasD7_14d": 0.2544
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 6,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 0.11,
+          "roasD7_3d": 0.12,
+          "roasD7_14d": 0.26
         }
       ]
     },
@@ -1190,33 +1190,6 @@
       "accountId": "143-205-5162",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.35,
@@ -1239,18 +1212,45 @@
           "installs": 1,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 0.0378,
-          "roasD7_3d": 0.0387,
-          "roasD7_14d": 0.039
+          "roasD3": 1.914,
+          "roasD7_3d": 1.9574,
+          "roasD7_14d": 1.4854
         },
         {
           "date": "2026-09-04",
           "installs": 1,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 0.04,
-          "roasD7_3d": 0.04,
-          "roasD7_14d": 0.04
+          "roasD3": 2.1244,
+          "roasD7_3d": 2.0957,
+          "roasD7_14d": 1.4168
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 2,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 2.3199,
+          "roasD7_3d": 2.1881,
+          "roasD7_14d": 1.4867
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 1,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 2.1173,
+          "roasD7_3d": 2.2909,
+          "roasD7_14d": 1.4707
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 0,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
         }
       ]
     },
@@ -1259,33 +1259,6 @@
       "accountId": "143-205-5162",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.35,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.35,
@@ -1305,21 +1278,48 @@
         },
         {
           "date": "2026-09-03",
-          "installs": 18,
+          "installs": 23,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 0.8532,
-          "roasD7_3d": 0.9013,
-          "roasD7_14d": 0.8799
+          "roasD3": 0.8959,
+          "roasD7_3d": 1.2486,
+          "roasD7_14d": 1.0341
         },
         {
           "date": "2026-09-04",
-          "installs": 25,
+          "installs": 26,
           "troas": 1.35,
           "budgetUsd": 2723,
-          "roasD3": 0.85,
-          "roasD7_3d": 0.9,
-          "roasD7_14d": 0.9
+          "roasD3": 0.8213,
+          "roasD7_3d": 1.1376,
+          "roasD7_14d": 1.0426
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 35,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 0.9274,
+          "roasD7_3d": 1.069,
+          "roasD7_14d": 1.0162
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 37,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 1.0037,
+          "roasD7_3d": 1.0615,
+          "roasD7_14d": 1.007
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 32,
+          "troas": 1.35,
+          "budgetUsd": 2723,
+          "roasD3": 1,
+          "roasD7_3d": 1.06,
+          "roasD7_14d": 1.03
         }
       ]
     },
@@ -1327,33 +1327,6 @@
       "name": "ap_solitaire|p_inhouse|g_WW|s_google|acc_2add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|01.09.2026|tROAS",
       "accountId": "143-205-5162",
       "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
         {
           "date": "2026-09-01",
           "installs": 0,
@@ -1368,27 +1341,54 @@
           "installs": 11,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 1.0816,
-          "roasD7_3d": 0.9199,
-          "roasD7_14d": 0.9564
+          "roasD3": 2.1155,
+          "roasD7_3d": 1.4522,
+          "roasD7_14d": 1.5698
         },
         {
           "date": "2026-09-03",
-          "installs": 113,
+          "installs": 117,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 0.9709,
-          "roasD7_3d": 0.9587,
-          "roasD7_14d": 0.9926
+          "roasD3": 1.9914,
+          "roasD7_3d": 1.3945,
+          "roasD7_14d": 1.59
         },
         {
           "date": "2026-09-04",
-          "installs": 231,
+          "installs": 245,
           "troas": 1.4,
           "budgetUsd": 2723,
-          "roasD3": 0.92,
-          "roasD7_3d": 0.97,
-          "roasD7_14d": 0.97
+          "roasD3": 1.8701,
+          "roasD7_3d": 1.4991,
+          "roasD7_14d": 1.5212
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 175,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.7988,
+          "roasD7_3d": 1.5268,
+          "roasD7_14d": 1.5085
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 111,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.6147,
+          "roasD7_3d": 1.5912,
+          "roasD7_14d": 1.5656
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 154,
+          "troas": 1.4,
+          "budgetUsd": 2723,
+          "roasD3": 1.53,
+          "roasD7_3d": 1.61,
+          "roasD7_14d": 1.53
         }
       ]
     },
@@ -1397,67 +1397,67 @@
       "accountId": "406-668-7725",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 784,
-          "troas": 1.21,
-          "budgetUsd": 4084,
-          "roasD3": 1.0535,
-          "roasD7_3d": 1.1477,
-          "roasD7_14d": 0.9845
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 917,
-          "troas": 1.21,
-          "budgetUsd": 4084,
-          "roasD3": 1.1668,
-          "roasD7_3d": 1.1876,
-          "roasD7_14d": 0.9898
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 758,
-          "troas": 1.21,
-          "budgetUsd": 4084,
-          "roasD3": 1.0557,
-          "roasD7_3d": 1.1105,
-          "roasD7_14d": 0.9355
-        },
-        {
           "date": "2026-09-01",
-          "installs": 777,
+          "installs": 780,
           "troas": 1.21,
-          "budgetUsd": 4084,
-          "roasD3": 1.1441,
-          "roasD7_3d": 1.1207,
-          "roasD7_14d": 0.9751
+          "budgetUsd": 1498,
+          "roasD3": 1.2557,
+          "roasD7_3d": 1.3664,
+          "roasD7_14d": 0.9376
         },
         {
           "date": "2026-09-02",
-          "installs": 298,
+          "installs": 301,
           "troas": 1.21,
-          "budgetUsd": 4084,
-          "roasD3": 1.0567,
-          "roasD7_3d": 1.1488,
-          "roasD7_14d": 1.0278
+          "budgetUsd": 1498,
+          "roasD3": 1.3907,
+          "roasD7_3d": 1.4138,
+          "roasD7_14d": 0.9426
         },
         {
           "date": "2026-09-03",
-          "installs": 440,
+          "installs": 448,
           "troas": 1.21,
-          "budgetUsd": 4084,
-          "roasD3": 1.0621,
-          "roasD7_3d": 1.089,
-          "roasD7_14d": 0.9975
+          "budgetUsd": 1498,
+          "roasD3": 1.2583,
+          "roasD7_3d": 1.3221,
+          "roasD7_14d": 0.8909
         },
         {
           "date": "2026-09-04",
-          "installs": 297,
+          "installs": 304,
           "troas": 1.21,
-          "budgetUsd": 4084,
-          "roasD3": 0.99,
-          "roasD7_3d": 1.05,
-          "roasD7_14d": 1.05
+          "budgetUsd": 1498,
+          "roasD3": 1.3637,
+          "roasD7_3d": 1.3341,
+          "roasD7_14d": 0.9287
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 394,
+          "troas": 1.21,
+          "budgetUsd": 1498,
+          "roasD3": 1.2595,
+          "roasD7_3d": 1.3676,
+          "roasD7_14d": 0.9789
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 471,
+          "troas": 1.21,
+          "budgetUsd": 1498,
+          "roasD3": 1.2659,
+          "roasD7_3d": 1.2964,
+          "roasD7_14d": 0.95
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 343,
+          "troas": 1.21,
+          "budgetUsd": 1498,
+          "roasD3": 1.18,
+          "roasD7_3d": 1.25,
+          "roasD7_14d": 1
         }
       ]
     },
@@ -1466,67 +1466,67 @@
       "accountId": "406-668-7725",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 2789,
-          "troas": 1.27,
-          "budgetUsd": 4084,
-          "roasD3": 1.8012,
-          "roasD7_3d": 1.406,
-          "roasD7_14d": 1.3661
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 3105,
-          "troas": 1.27,
-          "budgetUsd": 4084,
-          "roasD3": 1.6734,
-          "roasD7_3d": 1.3997,
-          "roasD7_14d": 1.4393
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 2722,
-          "troas": 1.27,
-          "budgetUsd": 4084,
-          "roasD3": 1.531,
-          "roasD7_3d": 1.4564,
-          "roasD7_14d": 1.4252
-        },
-        {
           "date": "2026-09-01",
-          "installs": 3618,
+          "installs": 3636,
           "troas": 1.27,
-          "budgetUsd": 4084,
-          "roasD3": 1.3816,
-          "roasD7_3d": 1.5937,
-          "roasD7_14d": 1.4626
+          "budgetUsd": 1498,
+          "roasD3": 1.6871,
+          "roasD7_3d": 1.3217,
+          "roasD7_14d": 1.3756
         },
         {
           "date": "2026-09-02",
-          "installs": 3636,
+          "installs": 3662,
           "troas": 1.27,
-          "budgetUsd": 4084,
-          "roasD3": 1.3431,
-          "roasD7_3d": 1.5646,
-          "roasD7_14d": 1.444
+          "budgetUsd": 1498,
+          "roasD3": 1.5674,
+          "roasD7_3d": 1.3157,
+          "roasD7_14d": 1.4493
         },
         {
           "date": "2026-09-03",
-          "installs": 3652,
+          "installs": 3693,
           "troas": 1.27,
-          "budgetUsd": 4084,
-          "roasD3": 1.4899,
-          "roasD7_3d": 1.4699,
-          "roasD7_14d": 1.3845
+          "budgetUsd": 1498,
+          "roasD3": 1.434,
+          "roasD7_3d": 1.369,
+          "roasD7_14d": 1.4351
         },
         {
           "date": "2026-09-04",
-          "installs": 2850,
+          "installs": 2925,
           "troas": 1.27,
-          "budgetUsd": 4084,
-          "roasD3": 1.42,
-          "roasD7_3d": 1.5,
-          "roasD7_14d": 1.44
+          "budgetUsd": 1498,
+          "roasD3": 1.294,
+          "roasD7_3d": 1.498,
+          "roasD7_14d": 1.4727
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 3267,
+          "troas": 1.27,
+          "budgetUsd": 1498,
+          "roasD3": 1.258,
+          "roasD7_3d": 1.4708,
+          "roasD7_14d": 1.4541
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 3509,
+          "troas": 1.27,
+          "budgetUsd": 1498,
+          "roasD3": 1.3954,
+          "roasD7_3d": 1.3817,
+          "roasD7_14d": 1.3942
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 2977,
+          "troas": 1.27,
+          "budgetUsd": 1498,
+          "roasD3": 1.33,
+          "roasD7_3d": 1.41,
+          "roasD7_14d": 1.45
         }
       ]
     },
@@ -1535,67 +1535,67 @@
       "accountId": "406-668-7725",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 1002,
-          "troas": 1.22,
-          "budgetUsd": 4084,
-          "roasD3": 1.2937,
-          "roasD7_3d": 1.5148,
-          "roasD7_14d": 1.077
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 962,
-          "troas": 1.22,
-          "budgetUsd": 4084,
-          "roasD3": 1.1795,
-          "roasD7_3d": 1.4631,
-          "roasD7_14d": 1.0933
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 760,
-          "troas": 1.22,
-          "budgetUsd": 4084,
-          "roasD3": 1.2786,
-          "roasD7_3d": 1.6049,
-          "roasD7_14d": 1.136
-        },
-        {
           "date": "2026-09-01",
-          "installs": 707,
+          "installs": 716,
           "troas": 1.22,
-          "budgetUsd": 4084,
-          "roasD3": 1.3696,
-          "roasD7_3d": 1.5974,
-          "roasD7_14d": 1.1772
+          "budgetUsd": 1906,
+          "roasD3": 1.2733,
+          "roasD7_3d": 1.4921,
+          "roasD7_14d": 1.0681
         },
         {
           "date": "2026-09-02",
-          "installs": 579,
+          "installs": 588,
           "troas": 1.22,
-          "budgetUsd": 4084,
-          "roasD3": 1.3458,
-          "roasD7_3d": 1.4626,
-          "roasD7_14d": 1.207
+          "budgetUsd": 1906,
+          "roasD3": 1.1609,
+          "roasD7_3d": 1.4413,
+          "roasD7_14d": 1.0843
         },
         {
           "date": "2026-09-03",
-          "installs": 505,
+          "installs": 520,
           "troas": 1.22,
-          "budgetUsd": 4084,
-          "roasD3": 1.3393,
-          "roasD7_3d": 1.3523,
-          "roasD7_14d": 1.2066
+          "budgetUsd": 1906,
+          "roasD3": 1.2585,
+          "roasD7_3d": 1.5809,
+          "roasD7_14d": 1.1266
         },
         {
           "date": "2026-09-04",
-          "installs": 243,
+          "installs": 254,
           "troas": 1.22,
-          "budgetUsd": 4084,
-          "roasD3": 1.27,
-          "roasD7_3d": 1.34,
-          "roasD7_14d": 1.21
+          "budgetUsd": 1906,
+          "roasD3": 1.348,
+          "roasD7_3d": 1.5735,
+          "roasD7_14d": 1.1674
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 187,
+          "troas": 1.22,
+          "budgetUsd": 1906,
+          "roasD3": 1.3246,
+          "roasD7_3d": 1.4407,
+          "roasD7_14d": 1.197
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 337,
+          "troas": 1.22,
+          "budgetUsd": 1906,
+          "roasD3": 1.3182,
+          "roasD7_3d": 1.3321,
+          "roasD7_14d": 1.1967
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 302,
+          "troas": 1.22,
+          "budgetUsd": 1906,
+          "roasD3": 1.25,
+          "roasD7_3d": 1.32,
+          "roasD7_14d": 1.2
         }
       ]
     },
@@ -1604,67 +1604,67 @@
       "accountId": "406-668-7725",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 423,
-          "troas": 1.33,
-          "budgetUsd": 4084,
-          "roasD3": 1.5557,
-          "roasD7_3d": 1.4028,
-          "roasD7_14d": 1.5019
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 485,
-          "troas": 1.33,
-          "budgetUsd": 4084,
-          "roasD3": 1.5207,
-          "roasD7_3d": 1.3978,
-          "roasD7_14d": 1.4847
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 454,
-          "troas": 1.33,
-          "budgetUsd": 4084,
-          "roasD3": 1.5636,
-          "roasD7_3d": 1.443,
-          "roasD7_14d": 1.4025
-        },
-        {
           "date": "2026-09-01",
-          "installs": 440,
+          "installs": 442,
           "troas": 1.33,
-          "budgetUsd": 4084,
-          "roasD3": 1.5656,
-          "roasD7_3d": 1.3284,
-          "roasD7_14d": 1.4324
+          "budgetUsd": 1498,
+          "roasD3": 1.6224,
+          "roasD7_3d": 1.4597,
+          "roasD7_14d": 1.5226
         },
         {
           "date": "2026-09-02",
-          "installs": 346,
+          "installs": 349,
           "troas": 1.33,
-          "budgetUsd": 4084,
-          "roasD3": 1.4316,
-          "roasD7_3d": 1.2726,
-          "roasD7_14d": 1.5076
+          "budgetUsd": 1498,
+          "roasD3": 1.5859,
+          "roasD7_3d": 1.4545,
+          "roasD7_14d": 1.5052
         },
         {
           "date": "2026-09-03",
-          "installs": 343,
+          "installs": 349,
           "troas": 1.33,
-          "budgetUsd": 4084,
-          "roasD3": 1.3138,
-          "roasD7_3d": 1.3404,
-          "roasD7_14d": 1.477
+          "budgetUsd": 1498,
+          "roasD3": 1.6306,
+          "roasD7_3d": 1.5015,
+          "roasD7_14d": 1.4218
         },
         {
           "date": "2026-09-04",
-          "installs": 264,
+          "installs": 275,
           "troas": 1.33,
-          "budgetUsd": 4084,
-          "roasD3": 1.4,
-          "roasD7_3d": 1.48,
-          "roasD7_14d": 1.45
+          "budgetUsd": 1498,
+          "roasD3": 1.6327,
+          "roasD7_3d": 1.3823,
+          "roasD7_14d": 1.4522
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 296,
+          "troas": 1.33,
+          "budgetUsd": 1498,
+          "roasD3": 1.4929,
+          "roasD7_3d": 1.3242,
+          "roasD7_14d": 1.5284
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 373,
+          "troas": 1.33,
+          "budgetUsd": 1498,
+          "roasD3": 1.3701,
+          "roasD7_3d": 1.3947,
+          "roasD7_14d": 1.4974
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 314,
+          "troas": 1.33,
+          "budgetUsd": 1498,
+          "roasD3": 1.46,
+          "roasD7_3d": 1.54,
+          "roasD7_14d": 1.47
         }
       ]
     },
@@ -1673,67 +1673,67 @@
       "accountId": "406-668-7725",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 293,
-          "troas": 1.35,
-          "budgetUsd": 1498,
-          "roasD3": 1.0815,
-          "roasD7_3d": 0.7811,
-          "roasD7_14d": 1.072
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 352,
-          "troas": 1.35,
-          "budgetUsd": 1498,
-          "roasD3": 1.1162,
-          "roasD7_3d": 0.7694,
-          "roasD7_14d": 1.015
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 286,
-          "troas": 1.35,
-          "budgetUsd": 1498,
-          "roasD3": 1.0198,
-          "roasD7_3d": 0.8161,
-          "roasD7_14d": 1.0773
-        },
-        {
           "date": "2026-09-01",
-          "installs": 281,
+          "installs": 283,
           "troas": 1.35,
           "budgetUsd": 1498,
-          "roasD3": 0.9792,
-          "roasD7_3d": 0.7516,
-          "roasD7_14d": 1.1356
+          "roasD3": 1.7908,
+          "roasD7_3d": 1.2992,
+          "roasD7_14d": 1.0627
         },
         {
           "date": "2026-09-02",
-          "installs": 286,
+          "installs": 293,
           "troas": 1.35,
           "budgetUsd": 1498,
-          "roasD3": 0.9876,
-          "roasD7_3d": 0.8346,
-          "roasD7_14d": 1.1365
+          "roasD3": 1.8484,
+          "roasD7_3d": 1.2797,
+          "roasD7_14d": 1.0062
         },
         {
           "date": "2026-09-03",
-          "installs": 338,
+          "installs": 345,
           "troas": 1.35,
           "budgetUsd": 1498,
-          "roasD3": 0.9971,
-          "roasD7_3d": 0.9158,
-          "roasD7_14d": 1.1685
+          "roasD3": 1.6887,
+          "roasD7_3d": 1.3575,
+          "roasD7_14d": 1.0679
         },
         {
           "date": "2026-09-04",
-          "installs": 303,
+          "installs": 311,
           "troas": 1.35,
           "budgetUsd": 1498,
-          "roasD3": 0.93,
-          "roasD7_3d": 0.98,
-          "roasD7_14d": 1.15
+          "roasD3": 1.6214,
+          "roasD7_3d": 1.2502,
+          "roasD7_14d": 1.1258
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 335,
+          "troas": 1.35,
+          "budgetUsd": 1498,
+          "roasD3": 1.6354,
+          "roasD7_3d": 1.3881,
+          "roasD7_14d": 1.1266
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 297,
+          "troas": 1.35,
+          "budgetUsd": 1498,
+          "roasD3": 1.6511,
+          "roasD7_3d": 1.5232,
+          "roasD7_14d": 1.1583
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 338,
+          "troas": 1.35,
+          "budgetUsd": 1498,
+          "roasD3": 1.54,
+          "roasD7_3d": 1.63,
+          "roasD7_14d": 1.14
         }
       ]
     },
@@ -1742,67 +1742,67 @@
       "accountId": "406-668-7725",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 3323,
-          "troas": 1.32,
-          "budgetUsd": 4084,
-          "roasD3": 1.3609,
-          "roasD7_3d": 1.5115,
-          "roasD7_14d": 1.5001
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 3132,
-          "troas": 1.32,
-          "budgetUsd": 4084,
-          "roasD3": 1.5454,
-          "roasD7_3d": 1.4611,
-          "roasD7_14d": 1.5648
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 3345,
-          "troas": 1.32,
-          "budgetUsd": 4084,
-          "roasD3": 1.5886,
-          "roasD7_3d": 1.3649,
-          "roasD7_14d": 1.6516
-        },
-        {
           "date": "2026-09-01",
-          "installs": 4585,
+          "installs": 4604,
           "troas": 1.32,
-          "budgetUsd": 4084,
-          "roasD3": 1.7097,
-          "roasD7_3d": 1.3742,
-          "roasD7_14d": 1.6405
+          "budgetUsd": 3131,
+          "roasD3": 1.3812,
+          "roasD7_3d": 1.5328,
+          "roasD7_14d": 1.4808
         },
         {
           "date": "2026-09-02",
-          "installs": 3408,
+          "installs": 3439,
           "troas": 1.32,
-          "budgetUsd": 4084,
-          "roasD3": 1.5989,
-          "roasD7_3d": 1.5155,
-          "roasD7_14d": 1.6182
+          "budgetUsd": 3131,
+          "roasD3": 1.5685,
+          "roasD7_3d": 1.4817,
+          "roasD7_14d": 1.5446
         },
         {
           "date": "2026-09-03",
-          "installs": 3041,
+          "installs": 3075,
           "troas": 1.32,
-          "budgetUsd": 4084,
-          "roasD3": 1.4297,
-          "roasD7_3d": 1.44,
-          "roasD7_14d": 1.5389
+          "budgetUsd": 3131,
+          "roasD3": 1.6123,
+          "roasD7_3d": 1.3842,
+          "roasD7_14d": 1.6303
         },
         {
           "date": "2026-09-04",
-          "installs": 2493,
+          "installs": 2565,
           "troas": 1.32,
-          "budgetUsd": 4084,
-          "roasD3": 1.34,
-          "roasD7_3d": 1.42,
-          "roasD7_14d": 1.55
+          "budgetUsd": 3131,
+          "roasD3": 1.7352,
+          "roasD7_3d": 1.3936,
+          "roasD7_14d": 1.6193
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 2452,
+          "troas": 1.32,
+          "budgetUsd": 3131,
+          "roasD3": 1.6228,
+          "roasD7_3d": 1.5369,
+          "roasD7_14d": 1.5973
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 2688,
+          "troas": 1.32,
+          "budgetUsd": 3131,
+          "roasD3": 1.4511,
+          "roasD7_3d": 1.4603,
+          "roasD7_14d": 1.519
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 2233,
+          "troas": 1.32,
+          "budgetUsd": 3131,
+          "roasD3": 1.36,
+          "roasD7_3d": 1.44,
+          "roasD7_14d": 1.53
         }
       ]
     },
@@ -1811,33 +1811,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -1857,6 +1830,33 @@
         },
         {
           "date": "2026-09-03",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
           "installs": 3,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -1865,7 +1865,7 @@
           "roasD7_14d": 0.2194
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "installs": 2,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -1880,33 +1880,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -1926,6 +1899,33 @@
         },
         {
           "date": "2026-09-03",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
           "installs": 1,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -1934,7 +1934,7 @@
           "roasD7_14d": 0.5753
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "installs": 0,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -1949,33 +1949,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -2004,6 +1977,33 @@
         },
         {
           "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
           "installs": 0,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2018,33 +2018,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -2073,6 +2046,33 @@
         },
         {
           "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
           "installs": 1,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2087,33 +2087,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -2124,6 +2097,33 @@
         },
         {
           "date": "2026-09-02",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
           "installs": 3,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2132,7 +2132,7 @@
           "roasD7_14d": 1.3981
         },
         {
-          "date": "2026-09-03",
+          "date": "2026-09-06",
           "installs": 10,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2141,7 +2141,7 @@
           "roasD7_14d": 1.3502
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "installs": 4,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2156,33 +2156,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -2202,6 +2175,33 @@
         },
         {
           "date": "2026-09-03",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
           "installs": 6,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2210,7 +2210,7 @@
           "roasD7_14d": 0.7495
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "installs": 5,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2225,33 +2225,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -2271,6 +2244,33 @@
         },
         {
           "date": "2026-09-03",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
           "installs": 2,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2279,7 +2279,7 @@
           "roasD7_14d": 0.773
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "installs": 1,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2294,33 +2294,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -2331,6 +2304,33 @@
         },
         {
           "date": "2026-09-02",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
           "installs": 1,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2339,7 +2339,7 @@
           "roasD7_14d": 1.6662
         },
         {
-          "date": "2026-09-03",
+          "date": "2026-09-06",
           "installs": 17,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2348,7 +2348,7 @@
           "roasD7_14d": 1.732
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "installs": 18,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2363,33 +2363,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.2,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1.2,
@@ -2400,6 +2373,33 @@
         },
         {
           "date": "2026-09-02",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1.2,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
           "installs": 19,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2408,7 +2408,7 @@
           "roasD7_14d": 0.5167
         },
         {
-          "date": "2026-09-03",
+          "date": "2026-09-06",
           "installs": 92,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2417,7 +2417,7 @@
           "roasD7_14d": 0.5266
         },
         {
-          "date": "2026-09-04",
+          "date": "2026-09-07",
           "installs": 44,
           "troas": 1.2,
           "budgetUsd": 2723,
@@ -2432,36 +2432,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2470,7 +2443,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2479,7 +2452,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2488,11 +2461,38 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 1,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 3,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -2501,36 +2501,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2539,7 +2512,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2548,7 +2521,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2557,7 +2530,34 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 0,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2570,36 +2570,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2608,7 +2581,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2617,7 +2590,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2626,11 +2599,38 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 1,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -2639,36 +2639,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2677,7 +2650,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2686,7 +2659,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2695,11 +2668,38 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 1,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -2708,36 +2708,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2746,7 +2719,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2755,7 +2728,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2764,11 +2737,38 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 8,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -2777,33 +2777,6 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
           "troas": 1,
@@ -2832,6 +2805,33 @@
         },
         {
           "date": "2026-09-04",
+          "installs": 0,
+          "troas": 1,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 1,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
           "installs": 0,
           "troas": 1,
           "budgetUsd": 2723,
@@ -2846,36 +2846,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2884,7 +2857,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2893,7 +2866,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2902,11 +2875,38 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 1,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -2915,36 +2915,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2953,7 +2926,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2962,7 +2935,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -2971,11 +2944,38 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 6,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -2984,36 +2984,9 @@
       "accountId": "883-186-8282",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1,
-          "budgetUsd": 2723,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3022,7 +2995,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3031,7 +3004,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3040,11 +3013,38 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1,
+          "troas": 0.9,
           "budgetUsd": 2723,
           "roasD3": null,
           "roasD7_3d": null,
           "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 126,
+          "troas": 0.9,
+          "budgetUsd": 2723,
+          "roasD3": 0,
+          "roasD7_3d": 0,
+          "roasD7_14d": 0
         }
       ]
     },
@@ -3053,36 +3053,9 @@
       "accountId": "643-772-0493",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3091,7 +3064,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3100,7 +3073,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3109,7 +3082,34 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 0,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3122,36 +3122,9 @@
       "accountId": "643-772-0493",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
           "date": "2026-09-01",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3160,7 +3133,7 @@
         {
           "date": "2026-09-02",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3169,7 +3142,7 @@
         {
           "date": "2026-09-03",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3178,7 +3151,34 @@
         {
           "date": "2026-09-04",
           "installs": 0,
-          "troas": 1.5,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 0,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 0,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": null,
+          "roasD7_3d": null,
+          "roasD7_14d": null
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 0,
+          "troas": 1.45,
           "budgetUsd": 4084,
           "roasD3": null,
           "roasD7_3d": null,
@@ -3191,412 +3191,67 @@
       "accountId": "643-772-0493",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 270,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 1.2716,
-          "roasD7_3d": 1.4637,
-          "roasD7_14d": 1.3756
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 256,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 1.2358,
-          "roasD7_3d": 1.5839,
-          "roasD7_14d": 1.364
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 308,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 1.105,
-          "roasD7_3d": 1.5541,
-          "roasD7_14d": 1.316
-        },
-        {
           "date": "2026-09-01",
-          "installs": 406,
-          "troas": 1.5,
+          "installs": 405,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.0868,
-          "roasD7_3d": 1.6613,
-          "roasD7_14d": 1.3584
+          "roasD3": 1.1427,
+          "roasD7_3d": 1.323,
+          "roasD7_14d": 1.3966
         },
         {
           "date": "2026-09-02",
-          "installs": 205,
-          "troas": 1.5,
+          "installs": 204,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.1678,
-          "roasD7_3d": 1.5632,
-          "roasD7_14d": 1.4102
+          "roasD3": 1.1105,
+          "roasD7_3d": 1.4316,
+          "roasD7_14d": 1.3848
         },
         {
           "date": "2026-09-03",
           "installs": 245,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.3267,
-          "roasD7_3d": 1.6495,
-          "roasD7_14d": 1.3817
+          "roasD3": 0.993,
+          "roasD7_3d": 1.4047,
+          "roasD7_14d": 1.3361
         },
         {
           "date": "2026-09-04",
-          "installs": 262,
-          "troas": 1.5,
+          "installs": 267,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.48,
-          "roasD7_3d": 1.56,
-          "roasD7_14d": 1.31
-        }
-      ]
-    },
-    {
-      "name": "ap_blocks|p_inhouse|g_BR|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|04.06.2026|tROAS",
-      "accountId": "643-772-0493",
-      "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
+          "roasD3": 0.9767,
+          "roasD7_3d": 1.5016,
+          "roasD7_14d": 1.3791
         },
         {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
+          "date": "2026-09-05",
+          "installs": 268,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
+          "roasD3": 1.0495,
+          "roasD7_3d": 1.4129,
+          "roasD7_14d": 1.4317
         },
         {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
+          "date": "2026-09-06",
+          "installs": 284,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
+          "roasD3": 1.1922,
+          "roasD7_3d": 1.4909,
+          "roasD7_14d": 1.4028
         },
         {
-          "date": "2026-09-01",
-          "installs": 96,
-          "troas": 1.4,
+          "date": "2026-09-07",
+          "installs": 370,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.3135,
-          "roasD7_3d": 1.5193,
-          "roasD7_14d": 1.4524
-        },
-        {
-          "date": "2026-09-02",
-          "installs": 731,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.2769,
-          "roasD7_3d": 1.4916,
-          "roasD7_14d": 1.434
-        },
-        {
-          "date": "2026-09-03",
-          "installs": 469,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.4164,
-          "roasD7_3d": 1.4013,
-          "roasD7_14d": 1.3749
-        },
-        {
-          "date": "2026-09-04",
-          "installs": 1276,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.35,
-          "roasD7_3d": 1.43,
-          "roasD7_14d": 1.43
-        }
-      ]
-    },
-    {
-      "name": "ap_blocks|p_inhouse|g_ID|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|20.08.2026|tROAS",
-      "accountId": "643-772-0493",
-      "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-09-01",
-          "installs": 90,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.6714,
-          "roasD7_3d": 1.3355,
-          "roasD7_14d": 1.4606
-        },
-        {
-          "date": "2026-09-02",
-          "installs": 281,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.5631,
-          "roasD7_3d": 1.4729,
-          "roasD7_14d": 1.4407
-        },
-        {
-          "date": "2026-09-03",
-          "installs": 149,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.3977,
-          "roasD7_3d": 1.3994,
-          "roasD7_14d": 1.3701
-        },
-        {
-          "date": "2026-09-04",
-          "installs": 80,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.31,
-          "roasD7_3d": 1.38,
-          "roasD7_14d": 1.38
-        }
-      ]
-    },
-    {
-      "name": "ap_blocks|p_inhouse|g_MX|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|04.06.2026|tROAS",
-      "accountId": "643-772-0493",
-      "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-09-01",
-          "installs": 6,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.9519,
-          "roasD7_3d": 2.2888,
-          "roasD7_14d": 1.8679
-        },
-        {
-          "date": "2026-09-02",
-          "installs": 45,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.9181,
-          "roasD7_3d": 2.0956,
-          "roasD7_14d": 1.9153
-        },
-        {
-          "date": "2026-09-03",
-          "installs": 22,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.9087,
-          "roasD7_3d": 1.9376,
-          "roasD7_14d": 1.9147
-        },
-        {
-          "date": "2026-09-04",
-          "installs": 80,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.81,
-          "roasD7_3d": 1.92,
-          "roasD7_14d": 1.92
-        }
-      ]
-    },
-    {
-      "name": "ap_blocks|p_inhouse|g_PH|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|30.07.2026|tROAS",
-      "accountId": "643-772-0493",
-      "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-09-01",
-          "installs": 2,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 3.0625,
-          "roasD7_3d": 2.9884,
-          "roasD7_14d": 2.6003
-        },
-        {
-          "date": "2026-09-02",
-          "installs": 9,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 2.8285,
-          "roasD7_3d": 3.0635,
-          "roasD7_14d": 2.7409
-        },
-        {
-          "date": "2026-09-03",
-          "installs": 10,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 2.843,
-          "roasD7_3d": 2.9039,
-          "roasD7_14d": 2.6599
-        },
-        {
-          "date": "2026-09-04",
-          "installs": 4,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 2.65,
-          "roasD7_3d": 2.8,
-          "roasD7_14d": 2.8
-        }
-      ]
-    },
-    {
-      "name": "ap_blocks|p_inhouse|g_TH|s_google|acc_3add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|03.07.2026|tROAS",
-      "accountId": "643-772-0493",
-      "history": [
-        {
-          "date": "2026-08-29",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 0,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": null,
-          "roasD7_3d": null,
-          "roasD7_14d": null
-        },
-        {
-          "date": "2026-09-01",
-          "installs": 5,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.588,
-          "roasD7_3d": 1.3464,
-          "roasD7_14d": 1.4818
-        },
-        {
-          "date": "2026-09-02",
-          "installs": 34,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.452,
-          "roasD7_3d": 1.2898,
-          "roasD7_14d": 1.5596
-        },
-        {
-          "date": "2026-09-03",
-          "installs": 52,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.3326,
-          "roasD7_3d": 1.3585,
-          "roasD7_14d": 1.528
-        },
-        {
-          "date": "2026-09-04",
-          "installs": 39,
-          "troas": 1.4,
-          "budgetUsd": 4084,
-          "roasD3": 1.42,
-          "roasD7_3d": 1.5,
-          "roasD7_14d": 1.5
+          "roasD3": 1.33,
+          "roasD7_3d": 1.41,
+          "roasD7_14d": 1.33
         }
       ]
     },
@@ -3605,67 +3260,67 @@
       "accountId": "643-772-0493",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 174,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 1.2467,
-          "roasD7_3d": 1.2234,
-          "roasD7_14d": 1.2779
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 94,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 1.3423,
-          "roasD7_3d": 1.3286,
-          "roasD7_14d": 1.2797
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 93,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 1.3299,
-          "roasD7_3d": 1.3064,
-          "roasD7_14d": 1.2167
-        },
-        {
           "date": "2026-09-01",
           "installs": 54,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.2606,
-          "roasD7_3d": 1.2147,
-          "roasD7_14d": 1.1533
+          "roasD3": 1.5024,
+          "roasD7_3d": 1.4701,
+          "roasD7_14d": 1.289
         },
         {
           "date": "2026-09-02",
           "installs": 19,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.2345,
-          "roasD7_3d": 1.2259,
-          "roasD7_14d": 1.1334
+          "roasD3": 1.6176,
+          "roasD7_3d": 1.5964,
+          "roasD7_14d": 1.2909
         },
         {
           "date": "2026-09-03",
           "installs": 9,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.3022,
-          "roasD7_3d": 1.1696,
-          "roasD7_14d": 1.0865
+          "roasD3": 1.6027,
+          "roasD7_3d": 1.5698,
+          "roasD7_14d": 1.2272
         },
         {
           "date": "2026-09-04",
           "installs": 11,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 1.17,
-          "roasD7_3d": 1.24,
-          "roasD7_14d": 1.15
+          "roasD3": 1.5192,
+          "roasD7_3d": 1.4596,
+          "roasD7_14d": 1.1633
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 20,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": 1.4877,
+          "roasD7_3d": 1.473,
+          "roasD7_14d": 1.1433
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 13,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": 1.5694,
+          "roasD7_3d": 1.4054,
+          "roasD7_14d": 1.0959
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 15,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": 1.41,
+          "roasD7_3d": 1.49,
+          "roasD7_14d": 1.16
         }
       ]
     },
@@ -3674,67 +3329,412 @@
       "accountId": "643-772-0493",
       "history": [
         {
-          "date": "2026-08-29",
-          "installs": 200,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 0.7624,
-          "roasD7_3d": 0.7133,
-          "roasD7_14d": 0.9468
-        },
-        {
-          "date": "2026-08-30",
-          "installs": 47,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 0.7486,
-          "roasD7_3d": 0.6626,
-          "roasD7_14d": 0.9837
-        },
-        {
-          "date": "2026-08-31",
-          "installs": 105,
-          "troas": 1.5,
-          "budgetUsd": 4084,
-          "roasD3": 0.7809,
-          "roasD7_3d": 0.7034,
-          "roasD7_14d": 1.0457
-        },
-        {
           "date": "2026-09-01",
-          "installs": 53,
-          "troas": 1.5,
+          "installs": 54,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 0.7319,
-          "roasD7_3d": 0.7551,
-          "roasD7_14d": 1.0438
+          "roasD3": 1.592,
+          "roasD7_3d": 1.4861,
+          "roasD7_14d": 0.9632
         },
         {
           "date": "2026-09-02",
           "installs": 53,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 0.6788,
-          "roasD7_3d": 0.8328,
-          "roasD7_14d": 1.0877
+          "roasD3": 1.5633,
+          "roasD7_3d": 1.3804,
+          "roasD7_14d": 1.0008
         },
         {
           "date": "2026-09-03",
           "installs": 14,
-          "troas": 1.5,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 0.6275,
-          "roasD7_3d": 0.7783,
-          "roasD7_14d": 1.1305
+          "roasD3": 1.6306,
+          "roasD7_3d": 1.4653,
+          "roasD7_14d": 1.0638
         },
         {
           "date": "2026-09-04",
-          "installs": 8,
-          "troas": 1.5,
+          "installs": 9,
+          "troas": 1.45,
           "budgetUsd": 4084,
-          "roasD3": 0.68,
-          "roasD7_3d": 0.72,
-          "roasD7_14d": 1.15
+          "roasD3": 1.5285,
+          "roasD7_3d": 1.5731,
+          "roasD7_14d": 1.0619
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 8,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": 1.4175,
+          "roasD7_3d": 1.735,
+          "roasD7_14d": 1.1066
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 4,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": 1.3103,
+          "roasD7_3d": 1.6214,
+          "roasD7_14d": 1.1502
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 11,
+          "troas": 1.45,
+          "budgetUsd": 4084,
+          "roasD3": 1.42,
+          "roasD7_3d": 1.5,
+          "roasD7_14d": 1.17
+        }
+      ]
+    },
+    {
+      "name": "ap_blocks|p_inhouse|g_MX|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|31.08.2026|tROAS",
+      "accountId": "643-772-0493",
+      "history": [
+        {
+          "date": "2026-09-01",
+          "installs": 6,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 0.9414,
+          "roasD7_3d": 1.1491,
+          "roasD7_14d": 1.4104
+        },
+        {
+          "date": "2026-09-02",
+          "installs": 46,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 0.9952,
+          "roasD7_3d": 1.0474,
+          "roasD7_14d": 1.352
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 22,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.058,
+          "roasD7_3d": 1.049,
+          "roasD7_14d": 1.3228
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 80,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 0.98,
+          "roasD7_3d": 1.01,
+          "roasD7_14d": 1.2914
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 79,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.0193,
+          "roasD7_3d": 1.0456,
+          "roasD7_14d": 1.2797
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 13,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 0.9214,
+          "roasD7_3d": 1.0408,
+          "roasD7_14d": 1.2576
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 19,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.04,
+          "roasD7_3d": 1.1,
+          "roasD7_14d": 1.27
+        }
+      ]
+    },
+    {
+      "name": "ap_blocks|p_inhouse|g_BR|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|31.08.2026|tROAS",
+      "accountId": "643-772-0493",
+      "history": [
+        {
+          "date": "2026-09-01",
+          "installs": 96,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.4379,
+          "roasD7_3d": 1.065,
+          "roasD7_14d": 1.2609
+        },
+        {
+          "date": "2026-09-02",
+          "installs": 732,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.4511,
+          "roasD7_3d": 1.1618,
+          "roasD7_14d": 1.3321
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 472,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.4168,
+          "roasD7_3d": 1.1389,
+          "roasD7_14d": 1.3251
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 1298,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.3046,
+          "roasD7_3d": 1.0656,
+          "roasD7_14d": 1.4094
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 993,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.4248,
+          "roasD7_3d": 1.1448,
+          "roasD7_14d": 1.3768
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 532,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.407,
+          "roasD7_3d": 1.2474,
+          "roasD7_14d": 1.3736
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 734,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.3,
+          "roasD7_3d": 1.38,
+          "roasD7_14d": 1.38
+        }
+      ]
+    },
+    {
+      "name": "ap_blocks|p_inhouse|g_ID|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|31.08.2026|tROAS",
+      "accountId": "643-772-0493",
+      "history": [
+        {
+          "date": "2026-09-01",
+          "installs": 91,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.8872,
+          "roasD7_3d": 1.6526,
+          "roasD7_14d": 1.5377
+        },
+        {
+          "date": "2026-09-02",
+          "installs": 282,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 2.1168,
+          "roasD7_3d": 1.6136,
+          "roasD7_14d": 1.5049
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 150,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.8946,
+          "roasD7_3d": 1.6256,
+          "roasD7_14d": 1.5453
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 82,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.7662,
+          "roasD7_3d": 1.5161,
+          "roasD7_14d": 1.4678
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 123,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.5771,
+          "roasD7_3d": 1.5386,
+          "roasD7_14d": 1.5247
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 47,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.571,
+          "roasD7_3d": 1.5296,
+          "roasD7_14d": 1.4393
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 73,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.43,
+          "roasD7_3d": 1.52,
+          "roasD7_14d": 1.4
+        }
+      ]
+    },
+    {
+      "name": "ap_blocks|p_inhouse|g_TH|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|31.08.2026|tROAS",
+      "accountId": "643-772-0493",
+      "history": [
+        {
+          "date": "2026-09-01",
+          "installs": 5,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.7742,
+          "roasD7_3d": 1.7492,
+          "roasD7_14d": 1.7966
+        },
+        {
+          "date": "2026-09-02",
+          "installs": 35,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.7727,
+          "roasD7_3d": 1.6342,
+          "roasD7_14d": 1.7773
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 52,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.5878,
+          "roasD7_3d": 1.6594,
+          "roasD7_14d": 1.7846
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 39,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.6699,
+          "roasD7_3d": 1.7413,
+          "roasD7_14d": 1.6883
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 25,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.7066,
+          "roasD7_3d": 1.8716,
+          "roasD7_14d": 1.7329
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 22,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.7183,
+          "roasD7_3d": 1.8009,
+          "roasD7_14d": 1.6687
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 34,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.74,
+          "roasD7_3d": 1.84,
+          "roasD7_14d": 1.62
+        }
+      ]
+    },
+    {
+      "name": "ap_blocks|p_inhouse|g_PH|s_google|acc_5add|at_aos|u_ua|o_roas|t_main|a_broad|f_full|31.08.2026|tROAS",
+      "accountId": "643-772-0493",
+      "history": [
+        {
+          "date": "2026-09-01",
+          "installs": 2,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 2.1605,
+          "roasD7_3d": 2.8744,
+          "roasD7_14d": 2.1932
+        },
+        {
+          "date": "2026-09-02",
+          "installs": 9,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 2.0929,
+          "roasD7_3d": 2.7404,
+          "roasD7_14d": 2.2076
+        },
+        {
+          "date": "2026-09-03",
+          "installs": 10,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.943,
+          "roasD7_3d": 2.8433,
+          "roasD7_14d": 2.2044
+        },
+        {
+          "date": "2026-09-04",
+          "installs": 4,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 2.0577,
+          "roasD7_3d": 2.7705,
+          "roasD7_14d": 2.3403
+        },
+        {
+          "date": "2026-09-05",
+          "installs": 9,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.998,
+          "roasD7_3d": 2.7073,
+          "roasD7_14d": 2.2983
+        },
+        {
+          "date": "2026-09-06",
+          "installs": 8,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 1.9277,
+          "roasD7_3d": 2.514,
+          "roasD7_14d": 2.3921
+        },
+        {
+          "date": "2026-09-07",
+          "installs": 4,
+          "troas": 1.4,
+          "budgetUsd": 4084,
+          "roasD3": 2.16,
+          "roasD7_3d": 2.29,
+          "roasD7_14d": 2.45
         }
       ]
     }

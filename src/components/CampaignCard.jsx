@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ChevronDown, ExternalLink, History } from 'lucide-react';
+import { ChevronDown, ExternalLink, History, ShieldAlert } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Tooltip, TooltipTrigger, TooltipContent } from '@/components/ui/tooltip';
 import { Collapsible, CollapsibleTrigger, CollapsibleContent } from '@/components/ui/collapsible';
@@ -82,7 +82,14 @@ function HistoryTimeline({ campaign, generatedAt }) {
               {!isLast && <span className="mt-1 w-px flex-1 bg-border" />}
             </span>
             <span className="pb-1">
-              <span className="text-[12.5px] font-semibold text-foreground">{meta.icon} {meta.label}</span>
+              <span className="text-[12.5px] font-semibold text-foreground">
+                {meta.icon} {meta.label}
+                {/* Гео-детализация — мок-заготовка формата, не разобранные реальные
+                    данные (см. changeHistory.js/geoEntryMeta и spike-geo-history-check.gs).
+                    Помечаем именно эту строку, не весь таймлайн — остальные записи
+                    в той же истории могут быть реальными. */}
+                {item.mock && <span className="ml-1 font-normal italic text-muted-foreground">· мок</span>}
+              </span>
               <div className="mt-0.5 text-[11px] text-muted-foreground">
                 {resourceLabel(item.resource)} · <code className="rounded border bg-muted px-1 py-0.5 text-[10.5px] font-mono">{item.fields.split(',')[0]}{item.fields.split(',').length > 1 ? ' …' : ''}</code>
               </div>
@@ -94,7 +101,36 @@ function HistoryTimeline({ campaign, generatedAt }) {
   );
 }
 
-export function CampaignCard({ campaign: c, generatedAt }) {
+// Модерация: disapprovedAds/limitedAds уже считает manage.gs из
+// ad_group_ad.policy_summary.approval_status (applyPolicyAndAssetFlags_,
+// строки 403-443) — на уровне ОБЪЯВЛЕНИЯ, не конкретного креатива/asset'а
+// (asset.policy_summary в Google Ads Scripts всегда пустой, см. коммент там же).
+// Алерт — триггер "иди проверь", не точная диагностика, какой именно баннер виноват.
+function ModerationAlert({ campaign: c }) {
+  const disapproved = c.disapprovedAds || 0;
+  const limited = c.limitedAds || 0;
+  if (!disapproved && !limited) return null;
+  return (
+    <Tooltip>
+      <TooltipTrigger asChild>
+        <Badge variant={disapproved ? 'serious' : 'warning'} className="flex-none cursor-help">
+          <ShieldAlert className="h-3 w-3" />
+          Модерация
+        </Badge>
+      </TooltipTrigger>
+      <TooltipContent className="max-w-xs text-[11.5px] leading-snug">
+        {disapproved > 0 && <div>Отклонено модерацией: {disapproved} объявл.</div>}
+        {limited > 0 && <div>Ограничен показ (APPROVED_LIMITED): {limited} объявл.</div>}
+        <p className="mt-1.5 border-t pt-1.5 text-muted-foreground">
+          Уровень объявления, не конкретного креатива — какой именно баннер/видео виноват,
+          Google Ads Scripts не отдаёт. Проверьте вкладку «Объявления» в Google Ads.
+        </p>
+      </TooltipContent>
+    </Tooltip>
+  );
+}
+
+export function CampaignCard({ campaign: c, generatedAt, sparkHighlightIndex }) {
   const [historyOpen, setHistoryOpen] = useState(false);
   const meta = ACTIONS[c.action];
   const Icon = meta.icon;
@@ -120,6 +156,7 @@ export function CampaignCard({ campaign: c, generatedAt }) {
         <div className="mb-0.5 flex flex-wrap items-center gap-x-2 gap-y-1">
           <span className={cn('flex-none text-[13px] font-semibold', STATUS_TEXT[meta.status])}>{meta.label}</span>
           <Badge variant="outline" className="flex-none font-bold tracking-wide">{c._geo}</Badge>
+          <ModerationAlert campaign={c} />
           <NameTooltip name={c.name} />
           {url && (
             <a
@@ -146,7 +183,7 @@ export function CampaignCard({ campaign: c, generatedAt }) {
 
         <div className="mt-3 rounded-md border bg-muted/30 p-2.5">
           <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wide text-muted-foreground">Инсталлы по дням</p>
-          <Sparkline values={c.installs7d} generatedAt={generatedAt} />
+          <Sparkline values={c.installs7d} generatedAt={generatedAt} highlightIndex={sparkHighlightIndex} />
         </div>
 
         <Collapsible open={historyOpen} onOpenChange={setHistoryOpen} className="mt-2">

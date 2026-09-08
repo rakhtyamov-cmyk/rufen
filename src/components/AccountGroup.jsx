@@ -36,7 +36,7 @@ function MiniDistribution({ campaigns }) {
   );
 }
 
-export function AccountGroup({ account, matched, open, onToggle, generatedAt }) {
+export function AccountGroup({ account, matched, open, onToggle, generatedAt, sparkHighlightIndex }) {
   const totalBudget = account.campaigns.reduce((s, c) => s + c.budgetUsd, 0);
 
   return (
@@ -54,7 +54,7 @@ export function AccountGroup({ account, matched, open, onToggle, generatedAt }) 
       <CollapsibleContent className="overflow-hidden data-[state=open]:animate-collapsible-down data-[state=closed]:animate-collapsible-up">
         <div className="flex flex-col gap-1.5 pt-2">
           {matched.map((c) => (
-            <CampaignCard key={c.name} campaign={c} generatedAt={generatedAt} />
+            <CampaignCard key={c.name} campaign={c} generatedAt={generatedAt} sparkHighlightIndex={sparkHighlightIndex} />
           ))}
         </div>
       </CollapsibleContent>

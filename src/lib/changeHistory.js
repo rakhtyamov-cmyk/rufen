@@ -35,6 +35,18 @@ const RESOURCE_LABEL = {
   CAMPAIGN_CRITERION: 'Таргетинг (кампания)',
 };
 
+// Гео-детализация для CAMPAIGN_CRITERION: manage.gs СЕЙЧАС её не парсит (см.
+// комментарий выше про TYPE_OP_META) — это МОК-заготовка формата на случай,
+// если распаковка old_resource/new_resource в processChangeEvents_ будет
+// реализована (см. tools/google-ads-management/spike-geo-history-check.gs).
+// Пока запись — не с реальным геотаргетингом, а с item.geo (см. ниже) —
+// показываем страну; без item.geo — честный resource-level лейбл ниже.
+function geoEntryMeta(item) {
+  if (item.resource !== 'CAMPAIGN_CRITERION' || !item.geo) return null;
+  const sign = item.geo.op === 'REMOVE' ? '−' : '+';
+  return { label: `Гео ${sign} ${item.geo.name}`, icon: '🌍' };
+}
+
 // Resource-level фолбэк для типов, где manage.gs не разбирает конкретное
 // поле (см. комментарий выше) — честно показываем "что" + "какая операция",
 // не "что именно изменилось внутри".
@@ -109,6 +121,9 @@ export function historyEntryMeta(item) {
     const known = fields.map((f) => FIELD_META[f]).find(Boolean);
     if (known) return known;
   }
+
+  const geoMeta = geoEntryMeta(item);
+  if (geoMeta) return geoMeta;
 
   const typeOp = TYPE_OP_META[item.resource]?.[item.operation];
   if (typeOp) return typeOp;

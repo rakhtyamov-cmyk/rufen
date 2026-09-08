@@ -45,9 +45,8 @@ function GeoMultiSelect({ geos, selected, onToggle, onClear }) {
 }
 
 export function Filters({
-  accounts, geos,
+  geos,
   search, onSearch, searchInputRef,
-  account, onAccount,
   selectedGeos, onToggleGeo, onClearGeos,
   sortBy, onSortBy,
   onlyAttention, onToggleOnlyAttention, attentionCount,
@@ -83,20 +82,6 @@ export function Filters({
       </Button>
 
       <div className="ml-auto flex flex-wrap items-center gap-2">
-        <Select value={account || '__all__'} onValueChange={(v) => onAccount(v === '__all__' ? '' : v)}>
-          <SelectTrigger className="w-auto min-w-[9rem]" aria-label="Аккаунт">
-            <SelectValue placeholder="Все аккаунты" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="__all__">Все аккаунты</SelectItem>
-            {accounts.map((a) => (
-              <SelectItem key={a.customerId} value={a.customerId}>
-                {a.name}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
-
         <GeoMultiSelect geos={geos} selected={selectedGeos} onToggle={onToggleGeo} onClear={onClearGeos} />
 
         <Select value={sortBy} onValueChange={onSortBy}>

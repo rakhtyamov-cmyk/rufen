@@ -25,8 +25,12 @@ const badgeVariants = cva(
   }
 );
 
-function Badge({ className, variant, ...props }) {
-  return <div className={cn(badgeVariants({ variant, className }))} {...props} />;
-}
+// forwardRef — нужен, чтобы Badge можно было класть внутрь Radix-триггеров
+// (Tooltip/DropdownMenu asChild), которые прокидывают ref в дочерний элемент.
+// См. ModerationAlert в CampaignCard.jsx — первое место, где это понадобилось.
+const Badge = React.forwardRef(({ className, variant, ...props }, ref) => (
+  <div ref={ref} className={cn(badgeVariants({ variant, className }))} {...props} />
+));
+Badge.displayName = 'Badge';
 
 export { Badge, badgeVariants };
